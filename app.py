@@ -37,9 +37,11 @@ CUSTOM_CSS = """
         --bg-card: rgba(255,255,255,0.065);
         --bg-card-strong: rgba(255,255,255,0.095);
         --border-soft: rgba(255,255,255,0.13);
-        --text-muted: rgba(250,250,250,0.68);
+        --text-muted: rgba(245,249,255,0.78);
         --accent: #6FA8FF;
         --accent-2: #80F2C4;
+        --text-main: #F8FBFF;
+        --text-soft: rgba(245,249,255,0.86);
     }
 
     .block-container {
@@ -53,6 +55,7 @@ CUSTOM_CSS = """
             radial-gradient(circle at 15% 10%, rgba(64, 120, 255, 0.18), transparent 26%),
             radial-gradient(circle at 85% 0%, rgba(0, 200, 170, 0.12), transparent 28%),
             linear-gradient(180deg, #0E1117 0%, #111827 45%, #0B0F16 100%);
+        color: var(--text-main);
     }
 
     .hero {
@@ -70,9 +73,10 @@ CUSTOM_CSS = """
         font-size: 0.78rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
-        color: var(--accent-2);
+        color: var(--accent-2) !important;
         font-weight: 700;
         margin-bottom: 0.25rem;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.35);
     }
 
     .hero-title {
@@ -80,15 +84,17 @@ CUSTOM_CSS = """
         line-height: 0.97;
         margin: 0;
         font-weight: 850;
-        color: #F7FAFC;
+        color: var(--text-main) !important;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.35);
     }
 
     .hero-copy {
         margin-top: 0.8rem;
-        color: rgba(255,255,255,0.74);
+        color: var(--text-soft) !important;
         font-size: 1.02rem;
         max-width: 980px;
         line-height: 1.45;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.25);
     }
 
     .pill-row {
@@ -101,10 +107,11 @@ CUSTOM_CSS = """
     .pill {
         border: 1px solid rgba(255,255,255,0.12);
         background: rgba(255,255,255,0.06);
-        color: rgba(255,255,255,0.84);
+        color: rgba(245,249,255,0.9) !important;
         border-radius: 999px;
         padding: 0.33rem 0.62rem;
         font-size: 0.82rem;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.25);
     }
 
     div[data-testid="stMetric"] {
@@ -115,8 +122,14 @@ CUSTOM_CSS = """
         box-shadow: 0 12px 32px rgba(0,0,0,0.22);
     }
 
+    div[data-testid="stMetricValue"] {
+        color: var(--text-main) !important;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    }
+
+    div[data-testid="stMetricLabel"] p,
     div[data-testid="stMetric"] label {
-        color: rgba(255,255,255,0.65) !important;
+        color: rgba(245,249,255,0.78) !important;
     }
 
     .section-title {
@@ -124,14 +137,16 @@ CUSTOM_CSS = """
         line-height: 1.1;
         margin: 0.7rem 0 0.25rem 0;
         font-weight: 800;
-        color: #F7FAFC;
+        color: var(--text-main) !important;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.35);
     }
 
     .section-copy {
-        color: var(--text-muted);
+        color: var(--text-muted) !important;
         font-size: 0.96rem;
         line-height: 1.45;
         margin-bottom: 0.8rem;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.22);
     }
 
     .method-grid {
@@ -152,26 +167,27 @@ CUSTOM_CSS = """
         padding: 1rem;
         box-shadow: 0 18px 45px rgba(0,0,0,0.22);
         min-height: 142px;
+        color: var(--text-soft) !important;
     }
 
     .method-kicker, .card-kicker {
         font-size: 0.72rem;
         letter-spacing: 0.12em;
         text-transform: uppercase;
-        color: #80F2C4;
+        color: var(--accent-2) !important;
         font-weight: 800;
         margin-bottom: 0.45rem;
     }
 
     .method-head {
         font-size: 1.05rem;
-        color: #F7FAFC;
+        color: var(--text-main) !important;
         font-weight: 800;
         margin-bottom: 0.25rem;
     }
 
     .method-text {
-        color: rgba(255,255,255,0.66);
+        color: rgba(245,249,255,0.82) !important;
         font-size: 0.91rem;
         line-height: 1.4;
     }
@@ -209,7 +225,7 @@ CUSTOM_CSS = """
         background: rgba(5,10,20,0.42);
         border-radius: 999px;
         padding: 0.22rem 0.55rem;
-        color: #80F2C4;
+        color: var(--accent-2) !important;
         font-size: 0.75rem;
         font-weight: 800;
         letter-spacing: 0.08em;
@@ -218,16 +234,17 @@ CUSTOM_CSS = """
 
     .roster-player {
         margin-top: 0.7rem;
-        color: #FFFFFF;
+        color: #FFFFFF !important;
         font-size: 1.27rem;
         font-weight: 850;
         line-height: 1.05;
         padding-right: 1.5rem;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.35);
     }
 
     .roster-meta {
         margin-top: 0.25rem;
-        color: rgba(255,255,255,0.64);
+        color: rgba(245,249,255,0.76) !important;
         font-size: 0.9rem;
     }
 
@@ -241,7 +258,7 @@ CUSTOM_CSS = """
     }
 
     .roster-stat span {
-        color: rgba(255,255,255,0.58);
+        color: rgba(245,249,255,0.72) !important;
         font-size: 0.78rem;
         letter-spacing: 0.09em;
         text-transform: uppercase;
@@ -249,14 +266,15 @@ CUSTOM_CSS = """
     }
 
     .roster-stat strong {
-        color: #F8FBFF;
+        color: #FFFFFF !important;
         font-size: 1.55rem;
         line-height: 1;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.35);
     }
 
     .driver {
         margin-top: 0.58rem;
-        color: rgba(255,255,255,0.69);
+        color: rgba(245,249,255,0.8) !important;
         font-size: 0.82rem;
         line-height: 1.28;
     }
@@ -269,6 +287,20 @@ CUSTOM_CSS = """
 
     .dataframe th {
         background: rgba(255,255,255,0.08) !important;
+    }
+
+    .stTabs [data-baseweb="tab"] p {
+        color: #EAF2FF !important;
+        font-weight: 750 !important;
+    }
+
+    .stTabs [aria-selected="true"] {
+        background: rgba(255,255,255,0.10) !important;
+        border-radius: 12px !important;
+    }
+
+    h1, h2, h3, h4, p, label, span {
+        color: inherit;
     }
 </style>
 """
@@ -382,7 +414,7 @@ def plot_bar(df, x, y, color=None, title="", x_title="WAR", height_per_row=28):
         margin=dict(l=10, r=10, t=52, b=30),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(color="rgba(255,255,255,0.82)"),
+        font=dict(color="rgba(255,255,255,0.88)"),
         legend_title_text="",
     )
     fig.update_xaxes(gridcolor="rgba(255,255,255,0.08)")
@@ -461,8 +493,21 @@ def load_data():
     )
     skill_detail["team_display"] = coalesce_columns(skill_detail, ["team", "primary_team", "teams"])
     skill_detail["player_team"] = skill_detail["player_name"].astype(str) + " — " + skill_detail["team_display"].astype(str)
+
+    # TE is identified by the PFF TE run-blocking match. This gives TE its own filter
+    # and All WAR Team slot while preserving the broader Pass Catcher framework.
+    skill_detail["is_te_role"] = (
+        skill_detail.get("is_te_pff_match", pd.Series(False, index=skill_detail.index))
+        .fillna(False)
+        .astype(bool)
+    )
+    skill_detail["skill_role_display"] = np.where(
+        skill_detail["is_te_role"],
+        "TE",
+        skill_detail["position_group"],
+    )
     skill_detail["position_rank"] = (
-        skill_detail.groupby(["season", "position_group"])["role_adjusted_skill_war"]
+        skill_detail.groupby(["season", "skill_role_display"])["role_adjusted_skill_war"]
         .rank(method="first", ascending=False)
         .astype("Int64")
     )
@@ -589,18 +634,25 @@ def qb_driver(row):
 
 
 def skill_driver(row):
-    pos = str(row.get("position_group", ""))
+    pos = str(row.get("skill_role_display", row.get("position_group", "")))
     rec = safe_float(row.get("receiving_epa", np.nan), 0)
     rush = safe_float(row.get("rushing_epa", np.nan), 0)
-    te_adj_val = safe_float(row.get("te_run_block_war_adjustment", np.nan), 0)
+
     if pos == "RB":
         if rec > rush:
             return "Receiving value + backfield usage"
         return "Role-adjusted rushing/receiving value"
-    if te_adj_val > 0:
-        return "Receiving EPA + TE run-block credit"
+
     if abs(row.get("yac_epa", 0)) > abs(row.get("air_epa", 0)):
         return "Receiving EPA + YAC value"
+
+    return "Receiving EPA"
+
+
+def te_driver(row):
+    te_adj_val = safe_float(row.get("te_run_block_war_adjustment", np.nan), 0)
+    if te_adj_val > 0:
+        return "Receiving EPA + TE run-block credit"
     return "Receiving EPA"
 
 
@@ -648,14 +700,67 @@ def build_all_war_team(season: int) -> pd.DataFrame:
     add_roster_row(rows, "QB", qbs.head(1), "QB", "war", "QB", 1, qb_driver)
 
     season_skill = skill_detail[skill_detail["season"].eq(season)].copy()
-    rbs = season_skill[season_skill["position_group"].eq("RB")].sort_values("role_adjusted_skill_war", ascending=False)
-    pcs = season_skill[season_skill["position_group"].eq("Pass Catcher")].sort_values("role_adjusted_skill_war", ascending=False)
+    te_mask = (
+        season_skill.get("is_te_role", pd.Series(False, index=season_skill.index))
+        .fillna(False)
+        .astype(bool)
+    )
+
+    rbs = (
+        season_skill[
+            season_skill["skill_role_display"].eq("RB")
+            & (~te_mask)
+        ]
+        .sort_values("role_adjusted_skill_war", ascending=False)
+    )
+
+    pcs = (
+        season_skill[
+            season_skill["skill_role_display"].eq("Pass Catcher")
+            & (~te_mask)
+        ]
+        .sort_values("role_adjusted_skill_war", ascending=False)
+    )
+
+    tes = (
+        season_skill[te_mask]
+        .sort_values("role_adjusted_skill_war", ascending=False)
+    )
 
     for i in range(2):
-        add_roster_row(rows, f"RB{i+1}", rbs.iloc[[i]] if len(rbs) > i else pd.DataFrame(), "RB", "role_adjusted_skill_war", "RB", i + 1, skill_driver)
+        add_roster_row(
+            rows,
+            f"RB{i+1}",
+            rbs.iloc[[i]] if len(rbs) > i else pd.DataFrame(),
+            "RB",
+            "role_adjusted_skill_war",
+            "RB",
+            i + 1,
+            skill_driver,
+        )
 
     for i in range(3):
-        add_roster_row(rows, f"PC{i+1}", pcs.iloc[[i]] if len(pcs) > i else pd.DataFrame(), "Pass Catcher", "role_adjusted_skill_war", "PC", i + 1, skill_driver)
+        add_roster_row(
+            rows,
+            f"PC{i+1}",
+            pcs.iloc[[i]] if len(pcs) > i else pd.DataFrame(),
+            "Pass Catcher",
+            "role_adjusted_skill_war",
+            "PC",
+            i + 1,
+            skill_driver,
+        )
+
+    add_roster_row(
+        rows,
+        "TE",
+        tes.head(1),
+        "TE",
+        "role_adjusted_skill_war",
+        "TE",
+        1,
+        te_driver,
+    )
 
     season_ol = ol_detail[ol_detail["season"].eq(season)].copy()
     centers = season_ol[season_ol["position"].eq("C")].sort_values("display_ol_war", ascending=False)
@@ -749,7 +854,7 @@ with overview_tab:
 with all_war_tab:
     st.markdown("<div class='section-title'>All WAR Team</div>", unsafe_allow_html=True)
     st.markdown(
-        "<div class='section-copy'>A single-season roster card: one QB, two RBs, three pass catchers, one center, two guards, and two tackles. This gives the model a clean, memorable output.</div>",
+        "<div class='section-copy'>A single-season roster card: one QB, two RBs, three pass catchers, one tight end, one center, two guards, and two tackles. This gives the model a clean, memorable output while keeping the positional logic visible.</div>",
         unsafe_allow_html=True,
     )
 
@@ -792,6 +897,27 @@ with all_war_tab:
             row = pc_rows.iloc[idx]
             with col:
                 st.markdown(render_html_card(row["Slot"], row["Player"], row["Team"], row["Position / Role"], row["WAR"], row["Rank Within Position"], row["Primary Value Driver"]), unsafe_allow_html=True)
+
+    st.markdown("<div class='mini-divider'></div>", unsafe_allow_html=True)
+
+    # TE card, centered for cleaner presentation
+    te_row = all_team[all_team["Slot"].eq("TE")].reset_index(drop=True)
+    if not te_row.empty:
+        te_cols = st.columns([1, 1.25, 1])
+        with te_cols[1]:
+            row = te_row.iloc[0]
+            st.markdown(
+                render_html_card(
+                    row["Slot"],
+                    row["Player"],
+                    row["Team"],
+                    row["Position / Role"],
+                    row["WAR"],
+                    row["Rank Within Position"],
+                    row["Primary Value Driver"],
+                ),
+                unsafe_allow_html=True,
+            )
 
     st.markdown("<div class='mini-divider'></div>", unsafe_allow_html=True)
 
@@ -850,7 +976,7 @@ with qb_tab:
             height=480,
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
-            font=dict(color="rgba(255,255,255,0.82)"),
+            font=dict(color="rgba(255,255,255,0.88)"),
         )
         fig.update_xaxes(gridcolor="rgba(255,255,255,0.08)")
         fig.update_yaxes(gridcolor="rgba(255,255,255,0.08)")
@@ -871,12 +997,20 @@ with qb_tab:
 
 with skill_tab:
     st.markdown("<div class='section-title'>Skill WAR</div>", unsafe_allow_html=True)
-    st.markdown("<div class='section-copy'>Running backs and pass catchers are shown through role-adjusted skill WAR. Tight ends retain receiving value while receiving a capped run-blocking correction when eligible.</div>", unsafe_allow_html=True)
+    st.markdown("<div class='section-copy'>Running backs, pass catchers, and tight ends are shown through role-adjusted skill WAR. Tight ends retain receiving value while receiving a capped run-blocking correction when eligible.</div>", unsafe_allow_html=True)
 
     sd = apply_common_filters(skill_detail, selected_seasons, selected_teams, "team_display")
-    pos_filter = st.multiselect("Skill role", sorted(sd["position_group"].dropna().unique()), default=sorted(sd["position_group"].dropna().unique()))
-    if pos_filter:
-        sd = sd[sd["position_group"].isin(pos_filter)]
+    skill_role_options = sorted(sd["skill_role_display"].dropna().unique())
+
+    role_filter = st.multiselect(
+        "Skill role",
+        skill_role_options,
+        default=skill_role_options,
+    )
+
+    if role_filter:
+        sd = sd[sd["skill_role_display"].isin(role_filter)]
+
     sd = sd.sort_values("role_adjusted_skill_war", ascending=False).head(top_n)
 
     s1, s2, s3, s4, s5 = st.columns(5)
@@ -891,7 +1025,7 @@ with skill_tab:
     with s5:
         st.metric("TE block WAR", fmt_num(sd["te_run_block_war_adjustment"].sum(), 3))
 
-    plot_bar(sd.sort_values("role_adjusted_skill_war"), "role_adjusted_skill_war", "player_team", color="position_group", title="Skill WAR leaderboard", x_title="Role-adjusted Skill WAR")
+    plot_bar(sd.sort_values("role_adjusted_skill_war"), "role_adjusted_skill_war", "player_team", color="skill_role_display", title="Skill WAR leaderboard", x_title="Role-adjusted Skill WAR")
 
     if not sd.empty:
         fig = px.scatter(
@@ -899,24 +1033,25 @@ with skill_tab:
             x="receiving_epa",
             y="rushing_epa",
             size="role_adjusted_skill_war",
-            color="position_group",
+            color="skill_role_display",
             hover_name="player_name",
             hover_data=["season", "team_display", "targets", "carries", "success_rate", "te_run_block_war_adjustment"],
             title="Receiving vs rushing value",
         )
-        fig.update_layout(height=480, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)", font=dict(color="rgba(255,255,255,0.82)"))
+        fig.update_layout(height=480, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)", font=dict(color="rgba(255,255,255,0.88)"))
         fig.update_xaxes(gridcolor="rgba(255,255,255,0.08)")
         fig.update_yaxes(gridcolor="rgba(255,255,255,0.08)")
         st.plotly_chart(fig, use_container_width=True)
 
     skill_cols = [
-        "season", "position_rank", "player_name", "position_group", "team_display", "role_adjusted_skill_war",
+        "season", "position_rank", "player_name", "skill_role_display", "team_display", "role_adjusted_skill_war",
         "role_adjusted_skill_epa", "receiving_epa", "rushing_epa", "opportunities", "targets", "carries",
         "epa_per_opportunity", "success_rate", "te_run_block_war_adjustment", "grades_run_block", "snap_counts_run_block",
     ]
     styled_dataframe(
         sd[[c for c in skill_cols if c in sd.columns]],
         column_config={
+            "skill_role_display": st.column_config.TextColumn("Skill Role"),
             "role_adjusted_skill_war": st.column_config.NumberColumn("Skill WAR", format="%.3f"),
             "role_adjusted_skill_epa": st.column_config.NumberColumn("Skill EPA", format="%.1f"),
             "receiving_epa": st.column_config.NumberColumn("Receiving EPA", format="%.1f"),
@@ -924,7 +1059,7 @@ with skill_tab:
             "epa_per_opportunity": st.column_config.NumberColumn("EPA/Opp", format="%.3f"),
             "success_rate": st.column_config.NumberColumn("Success", format="%.1%"),
             "te_run_block_war_adjustment": st.column_config.NumberColumn("TE Block WAR", format="%.3f"),
-            "grades_run_block": st.column_config.NumberColumn("PFF RB Grade", format="%.1f"),
+            "grades_run_block": st.column_config.NumberColumn("PFF Run-Block Grade", format="%.1f"),
         },
     )
 
@@ -963,7 +1098,7 @@ with ol_tab:
             hover_data=["season", "team_display", "display_ol_war", "snap_counts_offense", "pressures_allowed", "sacks_allowed", "penalties"],
             title="Pass-block grade vs run-block grade",
         )
-        fig.update_layout(height=480, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)", font=dict(color="rgba(255,255,255,0.82)"))
+        fig.update_layout(height=480, paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)", font=dict(color="rgba(255,255,255,0.88)"))
         fig.update_xaxes(gridcolor="rgba(255,255,255,0.08)")
         fig.update_yaxes(gridcolor="rgba(255,255,255,0.08)")
         st.plotly_chart(fig, use_container_width=True)
@@ -999,3 +1134,4 @@ with st.expander("Downloads"):
     with d4:
         st.download_button("QB master", data["qb_master"].to_csv(index=False).encode("utf-8"), FILE_NAMES["qb_master"], "text/csv")
         st.download_button("TE adjustments", data["te_adj"].to_csv(index=False).encode("utf-8"), FILE_NAMES["te_adj"], "text/csv")
+
