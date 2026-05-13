@@ -1,0 +1,559 @@
+season,player,player_id,name_key,team_norm,team_name,grades_run_block,snap_counts_run_block,season_max_te_run_block_snaps,eligible_te_run_block,te_run_block_grade_percentile,te_run_block_volume_factor,te_run_block_base_war_bump,te_run_block_war_adjustment,te_run_block_epa_adjustment,source_run_block_file
+2022,Maxx Williams,9488,m_williams,ARI,ARZ,63.1,98,457,True,0.8009708737864077,0.21444201312910285,0.2,0.042888402625820575,1.9299781181619258,offense_run_blockng (3).csv
+2022,Stephen Anderson,11160,s_anderson,ARI,ARZ,55.5,71,457,True,0.441747572815534,0.15536105032822758,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Trey McBride,75916,t_mcbride,ARI,ARZ,46.3,236,457,True,0.1796116504854369,0.5164113785557987,-0.1,-0.05164113785557987,-2.323851203501094,offense_run_blockng (3).csv
+2022,Zach Ertz,7816,z_ertz,ARI,ARZ,50.1,163,457,True,0.27184466019417475,0.35667396061269147,-0.05,-0.017833698030634573,-0.8025164113785558,offense_run_blockng (3).csv
+2022,Anthony Firkser,51837,a_firkser,ATL,ATL,53.3,41,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Kyle Pitts,83964,k_pitts,ATL,ATL,52.2,196,457,True,0.3592233009708738,0.4288840262582057,-0.05,-0.021444201312910287,-0.9649890590809629,offense_run_blockng (3).csv
+2022,MyCole Pruitt,9576,m_pruitt,ATL,ATL,62.2,186,457,True,0.7475728155339806,0.40700218818380746,0.12,0.04884026258205689,2.19781181619256,offense_run_blockng (3).csv
+2022,Parker Hesse,48369,p_hesse,ATL,ATL,61.2,392,457,True,0.6844660194174758,0.8577680525164114,0.06,0.051466083150984686,2.315973741794311,offense_run_blockng (3).csv
+2022,Charlie Kolar,60917,c_kolar,BAL,BLT,86.5,8,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Isaiah Likely,83955,i_likely,BAL,BLT,76.5,126,457,True,1.0,0.27571115973741794,0.3,0.08271334792122538,3.722100656455142,offense_run_blockng (3).csv
+2022,Josh Oliver,47083,j_oliver,BAL,BLT,74.0,353,457,True,0.9805825242718447,0.7724288840262582,0.3,0.23172866520787744,10.427789934354484,offense_run_blockng (3).csv
+2022,Mark Andrews,47436,m_andrews,BAL,BLT,70.1,352,457,True,0.9611650485436893,0.7702407002188184,0.3,0.23107221006564552,10.398249452954047,offense_run_blockng (3).csv
+2022,Nick Boyle,9604,n_boyle,BAL,BLT,64.3,53,457,True,0.8349514563106796,0.11597374179431072,0.2,0.023194748358862146,1.0437636761487965,offense_run_blockng (3).csv
+2022,Dawson Knox,35883,d_knox,BUF,BUF,65.9,318,457,True,0.9077669902912622,0.6958424507658644,0.3,0.20875273522975932,9.39387308533917,offense_run_blockng (3).csv
+2022,Quintin Morris,61182,q_morris,BUF,BUF,45.0,128,457,True,0.14563106796116504,0.2800875273522976,-0.1,-0.02800875273522976,-1.2603938730853392,offense_run_blockng (3).csv
+2022,Tommy Sweeney,47216,t_sweeney,BUF,BUF,61.1,42,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Giovanni Ricci,13756,g_ricci,CAR,CAR,60.5,85,457,True,0.6407766990291263,0.18599562363238512,0.06,0.011159737417943107,0.5021881838074398,offense_run_blockng (3).csv
+2022,Ian Thomas,42130,i_thomas,CAR,CAR,46.0,315,457,True,0.1650485436893204,0.6892778993435449,-0.1,-0.06892778993435449,-3.1017505470459517,offense_run_blockng (3).csv
+2022,Stephen Sullivan,40411,s_sullivan,CAR,CAR,60.7,43,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Tommy Tremble,84025,t_tremble,CAR,CAR,56.3,239,457,True,0.47572815533980584,0.5229759299781181,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Chase Allen,39988,c_allen,CHI,CHI,60.0,1,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Cole Kmet,60995,c_kmet,CHI,CHI,65.1,457,457,True,0.8786407766990292,1.0,0.2,0.2,9.0,offense_run_blockng (3).csv
+2022,Jake Tonges,60864,j_tonges,CHI,CHI,56.0,13,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Ryan Griffin,7982,r_griffin,CHI,CHI,60.1,95,457,True,0.6116504854368932,0.20787746170678337,0.06,0.012472647702407002,0.5612691466083151,offense_run_blockng (3).csv
+2022,Trevon Wesco,42018,t_wesco,CHI,CHI,68.5,126,457,True,0.941747572815534,0.27571115973741794,0.3,0.08271334792122538,3.722100656455142,offense_run_blockng (3).csv
+2022,Devin Asiasi,40294,d_asiasi,CIN,CIN,53.7,139,457,True,0.3883495145631068,0.3041575492341357,-0.05,-0.015207877461706786,-0.6843544857768054,offense_run_blockng (3).csv
+2022,Drew Sample,47259,d_sample,CIN,CIN,54.0,18,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Hayden Hurst,47294,h_hurst,CIN,CIN,58.7,149,457,True,0.5533980582524272,0.32603938730853393,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Mitchell Wilcox,47234,m_wilcox,CIN,CIN,60.1,285,457,True,0.6116504854368932,0.6236323851203501,0.06,0.037417943107221005,1.6838074398249452,offense_run_blockng (3).csv
+2022,David Njoku,11784,d_njoku,CLE,CLV,52.3,334,457,True,0.36893203883495146,0.7308533916849015,-0.05,-0.036542669584245076,-1.6444201312910285,offense_run_blockng (3).csv
+2022,Harrison Bryant,26394,h_bryant,CLE,CLV,62.1,264,457,True,0.7378640776699029,0.5776805251641138,0.12,0.06932166301969366,3.1194748358862143,offense_run_blockng (3).csv
+2022,Jesse James,9593,j_james,CLE,CLV,42.5,10,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Miller Forristall,47378,m_forristall,CLE,CLV,70.6,7,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Pharaoh Brown,12247,p_brown,CLE,CLV,59.5,188,457,True,0.5679611650485437,0.4113785557986871,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Dalton Schultz,47304,d_schultz,DAL,DAL,65.9,380,457,True,0.9077669902912622,0.8315098468271335,0.3,0.24945295404814002,11.225382932166301,offense_run_blockng (3).csv
+2022,Jake Ferguson,61081,j_ferguson,DAL,DAL,56.2,311,457,True,0.46116504854368934,0.6805251641137856,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Peyton Hendershot,60915,p_hendershot,DAL,DAL,54.5,174,457,True,0.4077669902912621,0.38074398249452956,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Sean McKeon,42266,s_mckeon,DAL,DAL,45.8,109,457,True,0.1553398058252427,0.23851203501094093,-0.1,-0.023851203501094095,-1.0733041575492344,offense_run_blockng (3).csv
+2022,Albert Okwuegbunam,41933,a_okwuegbunam,DEN,DEN,75.2,37,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Eric Saubert,11929,e_saubert,DEN,DEN,56.5,175,457,True,0.5048543689320388,0.38293216630196936,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Eric Tomlinson,9786,e_tomlinson,DEN,DEN,61.5,245,457,True,0.7038834951456311,0.5361050328227571,0.12,0.06433260393873086,2.8949671772428887,offense_run_blockng (3).csv
+2022,Greg Dulcich,84068,g_dulcich,DEN,DEN,33.8,151,457,True,0.02912621359223301,0.3304157549234136,-0.1,-0.03304157549234136,-1.4868708971553612,offense_run_blockng (3).csv
+2022,Brock Wright,60994,b_wright,DET,DET,44.2,333,457,True,0.1262135922330097,0.7286652078774617,-0.1,-0.07286652078774618,-3.278993435448578,offense_run_blockng (3).csv
+2022,Garrett Griffin,11439,g_griffin,DET,DET,54.0,5,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,James Mitchell,77885,j_mitchell,DET,DET,42.8,92,457,True,0.0970873786407767,0.2013129102844639,-0.1,-0.020131291028446394,-0.9059080962800877,offense_run_blockng (3).csv
+2022,Shane Zylstra,143786,s_zylstra,DET,DET,74.8,86,457,True,0.9902912621359223,0.18818380743982493,0.3,0.056455142231947475,2.5404814004376366,offense_run_blockng (3).csv
+2022,Josiah Deguara,47034,j_deguara,GB,GB,48.2,133,457,True,0.2087378640776699,0.2910284463894967,-0.1,-0.029102844638949674,-1.3096280087527352,offense_run_blockng (3).csv
+2022,Marcedes Lewis,2973,m_lewis,GB,GB,66.6,256,457,True,0.9223300970873787,0.5601750547045952,0.3,0.16805251641137856,7.562363238512035,offense_run_blockng (3).csv
+2022,Robert Tonyan,12193,r_tonyan,GB,GB,46.3,191,457,True,0.1796116504854369,0.4179431072210066,-0.1,-0.04179431072210066,-1.8807439824945296,offense_run_blockng (3).csv
+2022,Tyler Davis,47743,t_davis,GB,GB,62.7,108,457,True,0.7669902912621359,0.2363238512035011,0.12,0.02835886214442013,1.2761487964989058,offense_run_blockng (3).csv
+2022,Brevin Jordan,77887,b_jordan,HOU,HST,44.3,103,457,True,0.13592233009708737,0.22538293216630198,-0.1,-0.0225382932166302,-1.014223194748359,offense_run_blockng (3).csv
+2022,Jordan Akins,47050,j_akins,HOU,HST,51.6,80,457,True,0.34951456310679613,0.175054704595186,-0.05,-0.0087527352297593,-0.3938730853391685,offense_run_blockng (3).csv
+2022,Mason Schreck,12007,m_schreck,HOU,HST,60.0,21,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,O.J. Howard,11774,o_howard,HOU,HST,49.4,147,457,True,0.2621359223300971,0.32166301969365424,-0.05,-0.01608315098468271,-0.723741794310722,offense_run_blockng (3).csv
+2022,Teagan Quitoriano,84036,t_quitoriano,HOU,HST,44.0,155,457,True,0.11650485436893204,0.33916849015317285,-0.1,-0.03391684901531729,-1.526258205689278,offense_run_blockng (3).csv
+2022,Jelani Woods,60509,j_woods,IND,IND,50.3,108,457,True,0.2912621359223301,0.2363238512035011,-0.05,-0.011816192560175055,-0.5317286652078775,offense_run_blockng (3).csv
+2022,Kylen Granson,40630,k_granson,IND,IND,37.5,149,457,True,0.04854368932038835,0.32603938730853393,-0.1,-0.0326039387308534,-1.467177242888403,offense_run_blockng (3).csv
+2022,Mo Alie-Cox,12078,m_aliecox,IND,IND,49.3,262,457,True,0.24757281553398058,0.5733041575492341,-0.1,-0.05733041575492342,-2.5798687089715537,offense_run_blockng (3).csv
+2022,Nikola Kalinic,156095,n_kalinic,IND,IND,58.5,40,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Chris Manhertz,10211,c_manhertz,JAC,JAX,63.0,290,457,True,0.7864077669902912,0.6345733041575492,0.12,0.07614879649890591,3.4266958424507656,offense_run_blockng (3).csv
+2022,Dan Arnold,51842,d_arnold,JAC,JAX,54.9,92,457,True,0.4174757281553398,0.2013129102844639,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Evan Engram,11778,e_engram,JAC,JAX,60.1,321,457,True,0.6116504854368932,0.7024070021881839,0.06,0.04214442013129103,1.8964989059080963,offense_run_blockng (3).csv
+2022,Luke Farrell,42353,l_farrell,JAC,JAX,56.4,74,457,True,0.49029126213592233,0.16192560175054704,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Blake Bell,9550,b_bell,KC,KC,57.7,23,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Jody Fortson,94384,j_fortson,KC,KC,67.7,82,457,True,0.9320388349514563,0.17943107221006566,0.3,0.053829321663019694,2.422319474835886,offense_run_blockng (3).csv
+2022,Noah Gray,60878,n_gray,KC,KC,58.0,315,457,True,0.5242718446601942,0.6892778993435449,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Travis Kelce,7844,t_kelce,KC,KC,61.2,292,457,True,0.6844660194174758,0.6389496717724289,0.06,0.03833698030634573,1.725164113785558,offense_run_blockng (3).csv
+2022,Brycen Hopkins,47338,b_hopkins,LA,LA,62.7,78,457,True,0.7669902912621359,0.17067833698030635,0.12,0.02048140043763676,0.9216630196936543,offense_run_blockng (3).csv
+2022,Jared Pinkney,47214,j_pinkney,LA,LA,60.0,2,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Kendall Blanton,47311,k_blanton,LA,LA,44.9,12,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Roger Carter,55200,r_carter,LA,LA,60.0,1,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Tyler Higbee,10744,t_higbee,LA,LA,50.2,351,457,True,0.2815533980582524,0.7680525164113785,-0.05,-0.03840262582056893,-1.7281181619256019,offense_run_blockng (3).csv
+2022,Donald Parham Jr.,91014,d_parham,LAC,LAC,63.1,69,457,True,0.8009708737864077,0.15098468271334792,0.2,0.030196936542669583,1.3588621444201312,offense_run_blockng (3).csv
+2022,Gerald Everett,11799,g_everett,LAC,LAC,48.2,188,457,True,0.2087378640776699,0.4113785557986871,-0.1,-0.04113785557986871,-1.851203501094092,offense_run_blockng (3).csv
+2022,Richard Rodgers,8733,r_rodgers,LAC,LAC,42.7,52,457,True,0.08737864077669903,0.1137855579868709,-0.1,-0.01137855579868709,-0.5120350109409191,offense_run_blockng (3).csv
+2022,Stone Smartt,60492,s_smartt,LAC,LAC,40.9,24,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Tre' McKitty,60896,t_mckitty,LAC,LAC,37.7,267,457,True,0.05825242718446602,0.5842450765864332,-0.1,-0.05842450765864332,-2.6291028446389495,offense_run_blockng (3).csv
+2022,Darren Waller,9637,d_waller,LV,LV,49.3,80,457,True,0.24757281553398058,0.175054704595186,-0.1,-0.0175054704595186,-0.787746170678337,offense_run_blockng (3).csv
+2022,Foster Moreau,47043,f_moreau,LV,LV,40.8,321,457,True,0.06796116504854369,0.7024070021881839,-0.1,-0.07024070021881838,-3.1608315098468274,offense_run_blockng (3).csv
+2022,Jacob Hollister,12051,j_hollister,LV,LV,60.1,6,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Jesper Horsted,91465,j_horsted,LV,LV,63.2,23,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Cethan Carter,47149,c_carter,MIA,MIA,60.0,1,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Durham Smythe,47257,d_smythe,MIA,MIA,64.2,314,457,True,0.8252427184466019,0.687089715536105,0.2,0.137417943107221,6.183807439824945,offense_run_blockng (3).csv
+2022,Hunter Long,60859,h_long,MIA,MIA,58.6,62,457,True,0.5436893203883495,0.13566739606126915,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Mike Gesicki,47153,m_gesicki,MIA,MIA,42.3,84,457,True,0.07766990291262135,0.1838074398249453,-0.1,-0.01838074398249453,-0.8271334792122539,offense_run_blockng (3).csv
+2022,Tanner Conner,22777,t_conner,MIA,MIA,61.2,12,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Ben Ellefson,27766,b_ellefson,MIN,MIN,58.9,24,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Irv Smith Jr.,42060,i_smith,MIN,MIN,56.2,75,457,True,0.46116504854368934,0.16411378555798686,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Johnny Mundt,12206,j_mundt,MIN,MIN,50.7,250,457,True,0.3058252427184466,0.5470459518599562,-0.05,-0.02735229759299781,-1.2308533916849016,offense_run_blockng (3).csv
+2022,T.J. Hockenson,40912,t_hockenson,MIN,MIN,58.2,327,457,True,0.5339805825242718,0.7155361050328227,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Hunter Henry,10669,h_henry,NE,NE,48.3,310,457,True,0.22330097087378642,0.6783369803063457,-0.1,-0.06783369803063458,-3.052516411378556,offense_run_blockng (3).csv
+2022,Jonnu Smith,11855,j_smith,NE,NE,32.4,211,457,True,0.019417475728155338,0.4617067833698031,-0.1,-0.04617067833698031,-2.077680525164114,offense_run_blockng (3).csv
+2022,Matt Sokol,47123,m_sokol,NE,NE,50.6,20,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Scotty Washington,47964,s_washington,NE,NE,56.5,8,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Adam Trautman,109795,a_trautman,NO,NO,61.1,316,457,True,0.6699029126213593,0.6914660831509847,0.06,0.04148796498905908,1.8669584245076587,offense_run_blockng (3).csv
+2022,J.P. Holtz,11062,j_holtz,NO,NO,29.7,67,457,True,0.009708737864077669,0.14660831509846828,-0.1,-0.014660831509846829,-0.6597374179431073,offense_run_blockng (3).csv
+2022,Juwan Johnson,28305,j_johnson,NO,NO,54.1,243,457,True,0.39805825242718446,0.5317286652078774,-0.05,-0.026586433260393873,-1.1963894967177242,offense_run_blockng (3).csv
+2022,Lucas Krull,83962,l_krull,NO,NO,55.5,2,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Taysom Hill,12112,t_hill,NO,NO,60.6,74,457,True,0.6504854368932039,0.16192560175054704,0.06,0.009715536105032823,0.43719912472647704,offense_run_blockng (3).csv
+2022,Chris Myarick,47358,c_myarick,NYG,NYG,65.1,184,457,True,0.8786407766990292,0.4026258205689278,0.2,0.08052516411378557,3.623632385120351,offense_run_blockng (3).csv
+2022,Daniel Bellinger,84041,d_bellinger,NYG,NYG,63.3,286,457,True,0.8155339805825242,0.6258205689277899,0.2,0.125164113785558,5.63238512035011,offense_run_blockng (3).csv
+2022,Lawrence Cager,34914,l_cager,NYG,NYG,59.5,108,457,True,0.5679611650485437,0.2363238512035011,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Nick Vannett,10728,n_vannett,NYG,NYG,43.0,108,457,True,0.10679611650485436,0.2363238512035011,-0.1,-0.02363238512035011,-1.063457330415755,offense_run_blockng (3).csv
+2022,Tanner Hudson,66924,t_hudson,NYG,NYG,60.9,70,457,True,0.6601941747572816,0.15317286652078774,0.06,0.009190371991247264,0.4135667396061269,offense_run_blockng (3).csv
+2022,C.J. Uzomah,9590,c_uzomah,NYJ,NYJ,62.7,261,457,True,0.7669902912621359,0.5711159737417943,0.12,0.06853391684901532,3.0840262582056894,offense_run_blockng (3).csv
+2022,Jeremy Ruckert,84029,j_ruckert,NYJ,NYJ,78.0,30,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Kenny Yeboah,42196,k_yeboah,NYJ,NYJ,56.0,20,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Tyler Conklin,47124,t_conklin,NYJ,NYJ,51.1,287,457,True,0.32524271844660196,0.6280087527352297,-0.05,-0.03140043763676149,-1.413019693654267,offense_run_blockng (3).csv
+2022,Dallas Goedert,47272,d_goedert,PHI,PHI,56.4,419,457,True,0.49029126213592233,0.9168490153172867,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Grant Calcaterra,60997,g_calcaterra,PHI,PHI,61.7,156,457,True,0.7184466019417476,0.3413566739606127,0.12,0.04096280087527352,1.8433260393873085,offense_run_blockng (3).csv
+2022,Jack Stoll,42058,j_stoll,PHI,PHI,56.6,370,457,True,0.5145631067961165,0.8096280087527352,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Noah Togiai,47282,n_togiai,PHI,PHI,44.7,6,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Tyree Jackson,46481,t_jackson,PHI,PHI,47.2,16,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Connor Heyward,57301,c_heyward,PIT,PIT,55.5,83,457,True,0.441747572815534,0.18161925601750548,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Pat Freiermuth,84085,p_freiermuth,PIT,PIT,59.6,248,457,True,0.587378640776699,0.5426695842450766,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Zach Gentry,36049,z_gentry,PIT,PIT,48.7,321,457,True,0.23300970873786409,0.7024070021881839,-0.1,-0.07024070021881838,-3.1608315098468274,offense_run_blockng (3).csv
+2022,Colby Parkinson,52266,c_parkinson,SEA,SEA,65.3,218,457,True,0.8932038834951457,0.47702407002188185,0.2,0.09540481400437638,4.2932166301969374,offense_run_blockng (3).csv
+2022,Noah Fant,42388,n_fant,SEA,SEA,50.7,256,457,True,0.3058252427184466,0.5601750547045952,-0.05,-0.02800875273522976,-1.2603938730853392,offense_run_blockng (3).csv
+2022,Tyler Mabry,25705,t_mabry,SEA,SEA,60.7,5,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Will Dissly,30762,w_dissly,SEA,SEA,64.4,254,457,True,0.8446601941747572,0.5557986870897156,0.2,0.11115973741794312,5.002188183807441,offense_run_blockng (3).csv
+2022,Charlie Woerner,42257,c_woerner,SF,SF,51.2,159,457,True,0.33980582524271846,0.3479212253829322,-0.05,-0.01739606126914661,-0.7828227571115974,offense_run_blockng (3).csv
+2022,George Kittle,11901,g_kittle,SF,SF,69.5,431,457,True,0.9514563106796117,0.9431072210065645,0.3,0.2829321663019693,12.73194748358862,offense_run_blockng (3).csv
+2022,Ross Dwelley,20994,r_dwelley,SF,SF,52.8,46,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Tyler Kroft,9518,t_kroft,SF,SF,72.7,178,457,True,0.970873786407767,0.38949671772428884,0.3,0.11684901531728664,5.258205689277899,offense_run_blockng (3).csv
+2022,Cameron Brate,9207,c_brate,TB,TB,51.1,99,457,True,0.32524271844660196,0.21663019693654267,-0.05,-0.010831509846827134,-0.48741794310722103,offense_run_blockng (3).csv
+2022,Cade Otton,61071,c_otton,TB,TB,59.6,294,457,True,0.587378640776699,0.6433260393873085,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Ko Kieft,41372,k_kieft,TB,TB,65.0,175,457,True,0.8592233009708737,0.38293216630196936,0.2,0.07658643326039388,3.4463894967177247,offense_run_blockng (3).csv
+2022,Kyle Rudolph,6195,k_rudolph,TB,TB,44.6,36,457,False,,0.0,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Austin Hooper,10715,a_hooper,TEN,TEN,46.7,173,457,True,0.1941747572815534,0.3785557986870897,-0.1,-0.03785557986870897,-1.7035010940919038,offense_run_blockng (3).csv
+2022,Chigoziem Okonkwo,84000,c_okonkwo,TEN,TEN,55.3,182,457,True,0.42718446601941745,0.3982494529540481,0.0,0.0,0.0,offense_run_blockng (3).csv
+2022,Geoff Swaim,9679,g_swaim,TEN,TEN,62.0,386,457,True,0.7281553398058253,0.8446389496717724,0.12,0.1013566739606127,4.561050328227571,offense_run_blockng (3).csv
+2022,Kevin Rader,30887,k_rader,TEN,TEN,61.5,93,457,True,0.7038834951456311,0.20350109409190373,0.12,0.024420131291028446,1.09890590809628,offense_run_blockng (3).csv
+2022,Armani Rogers,40034,a_rogers,WAS,WAS,52.9,89,457,True,0.3786407766990291,0.19474835886214442,-0.05,-0.009737417943107222,-0.438183807439825,offense_run_blockng (3).csv
+2022,Cole Turner,84330,c_turner,WAS,WAS,60.2,148,457,True,0.6310679611650486,0.3238512035010941,0.06,0.019431072210065646,0.8743982494529541,offense_run_blockng (3).csv
+2022,John Bates,42275,j_bates,WAS,WAS,65.0,299,457,True,0.8592233009708737,0.6542669584245077,0.2,0.13085339168490154,5.888402625820569,offense_run_blockng (3).csv
+2022,Logan Thomas,8755,l_thomas,WAS,WAS,37.0,263,457,True,0.038834951456310676,0.5754923413566739,-0.1,-0.0575492341356674,-2.589715536105033,offense_run_blockng (3).csv
+2023,Blake Whiteheart,77881,b_whiteheart,ARI,ARZ,60.0,1,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Elijah Higgins,98027,e_higgins,ARI,ARZ,51.1,91,463,True,0.345,0.19654427645788336,-0.05,-0.009827213822894169,-0.4422246220302376,offense_run_blockng (2).csv
+2023,Geoff Swaim,9679,g_swaim,ARI,ARZ,47.4,193,463,True,0.21,0.4168466522678186,-0.1,-0.04168466522678186,-1.8758099352051838,offense_run_blockng (2).csv
+2023,Trey McBride,75916,t_mcbride,ARI,ARZ,62.3,330,463,True,0.85,0.712742980561555,0.2,0.14254859611231102,6.414686825053996,offense_run_blockng (2).csv
+2023,Travis Vokolek,61004,t_vokolek,ARI,ARZ,56.0,27,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Zach Ertz,7816,z_ertz,ARI,ARZ,49.5,92,463,True,0.26,0.19870410367170627,-0.05,-0.009935205183585314,-0.44708423326133917,offense_run_blockng (2).csv
+2023,John FitzPatrick,83974,j_fitzpatrick,ATL,ATL,49.3,11,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Jonnu Smith,11855,j_smith,ATL,ATL,43.7,213,463,True,0.1,0.46004319654427644,-0.1,-0.046004319654427646,-2.070194384449244,offense_run_blockng (2).csv
+2023,Kyle Pitts,83964,k_pitts,ATL,ATL,31.2,230,463,True,0.02,0.49676025917926564,-0.1,-0.04967602591792657,-2.2354211663066956,offense_run_blockng (2).csv
+2023,MyCole Pruitt,9576,m_pruitt,ATL,ATL,46.8,247,463,True,0.19,0.5334773218142549,-0.1,-0.053347732181425495,-2.4006479481641474,offense_run_blockng (2).csv
+2023,Parker Hesse,48369,p_hesse,ATL,ATL,50.9,42,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Tucker Fisk,52286,t_fisk,ATL,ATL,50.9,50,463,True,0.32,0.1079913606911447,-0.05,-0.005399568034557236,-0.2429805615550756,offense_run_blockng (2).csv
+2023,Charlie Kolar,60917,c_kolar,BAL,BLT,54.9,186,463,True,0.49,0.4017278617710583,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Isaiah Likely,83955,i_likely,BAL,BLT,51.9,212,463,True,0.39,0.45788336933045354,-0.05,-0.022894168466522678,-1.0302375809935205,offense_run_blockng (2).csv
+2023,Mark Andrews,47436,m_andrews,BAL,BLT,58.8,168,463,True,0.69,0.36285097192224625,0.06,0.021771058315334775,0.9796976241900649,offense_run_blockng (2).csv
+2023,Dalton Kincaid,91791,d_kincaid,BUF,BUF,55.8,233,463,True,0.555,0.5032397408207343,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Dawson Knox,35883,d_knox,BUF,BUF,51.1,227,463,True,0.345,0.490280777537797,-0.05,-0.02451403887688985,-1.1031317494600432,offense_run_blockng (2).csv
+2023,Quintin Morris,61182,q_morris,BUF,BUF,64.0,140,463,True,0.91,0.3023758099352052,0.3,0.09071274298056155,4.082073434125269,offense_run_blockng (2).csv
+2023,Giovanni Ricci,13756,g_ricci,CAR,CAR,40.9,6,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Hayden Hurst,47294,h_hurst,CAR,CAR,28.3,69,463,True,0.01,0.1490280777537797,-0.1,-0.014902807775377969,-0.6706263498920086,offense_run_blockng (2).csv
+2023,Ian Thomas,42130,i_thomas,CAR,CAR,62.1,120,463,True,0.84,0.2591792656587473,0.2,0.05183585313174947,2.332613390928726,offense_run_blockng (2).csv
+2023,Stephen Sullivan,40411,s_sullivan,CAR,CAR,49.8,35,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Tommy Tremble,84025,t_tremble,CAR,CAR,45.5,270,463,True,0.15,0.5831533477321814,-0.1,-0.058315334773218146,-2.6241900647948166,offense_run_blockng (2).csv
+2023,Cole Kmet,60995,c_kmet,CHI,CHI,54.9,362,463,True,0.49,0.7818574514038877,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Marcedes Lewis,2973,m_lewis,CHI,CHI,73.7,224,463,True,0.95,0.4838012958963283,0.3,0.14514038876889848,6.531317494600431,offense_run_blockng (2).csv
+2023,Robert Tonyan,12193,r_tonyan,CHI,CHI,38.9,136,463,True,0.06,0.2937365010799136,-0.1,-0.029373650107991364,-1.3218142548596115,offense_run_blockng (2).csv
+2023,Drew Sample,47259,d_sample,CIN,CIN,61.5,217,463,True,0.82,0.468682505399568,0.2,0.0937365010799136,4.218142548596112,offense_run_blockng (2).csv
+2023,Irv Smith Jr.,42060,i_smith,CIN,CIN,53.8,87,463,True,0.41,0.1879049676025918,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Mitchell Wilcox,47234,m_wilcox,CIN,CIN,45.8,139,463,True,0.16,0.3002159827213823,-0.1,-0.03002159827213823,-1.3509719222462202,offense_run_blockng (2).csv
+2023,Tanner Hudson,66924,t_hudson,CIN,CIN,74.5,34,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,David Njoku,11784,d_njoku,CLE,CLV,54.4,370,463,True,0.455,0.7991360691144709,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Harrison Bryant,26394,h_bryant,CLE,CLV,49.6,228,463,True,0.275,0.4924406047516199,-0.05,-0.024622030237580996,-1.107991360691145,offense_run_blockng (2).csv
+2023,Jordan Akins,47050,j_akins,CLE,CLV,44.2,110,463,True,0.11,0.23758099352051837,-0.1,-0.023758099352051837,-1.0691144708423326,offense_run_blockng (2).csv
+2023,Jake Ferguson,61081,j_ferguson,DAL,DAL,59.6,308,463,True,0.725,0.6652267818574514,0.12,0.07982721382289416,3.5922246220302374,offense_run_blockng (2).csv
+2023,Luke Schoonmaker,84005,l_schoonmaker,DAL,DAL,59.1,226,463,True,0.7,0.48812095032397407,0.12,0.05857451403887689,2.63585313174946,offense_run_blockng (2).csv
+2023,Peyton Hendershot,60915,p_hendershot,DAL,DAL,56.9,86,463,True,0.615,0.1857451403887689,0.06,0.011144708423326134,0.5015118790496761,offense_run_blockng (2).csv
+2023,Sean McKeon,42266,s_mckeon,DAL,DAL,61.8,57,463,True,0.83,0.12311015118790497,0.2,0.024622030237580996,1.107991360691145,offense_run_blockng (2).csv
+2023,Adam Trautman,109795,a_trautman,DEN,DEN,60.1,320,463,True,0.77,0.6911447084233261,0.12,0.08293736501079912,3.7321814254859604,offense_run_blockng (2).csv
+2023,Chris Manhertz,10211,c_manhertz,DEN,DEN,58.5,234,463,True,0.68,0.5053995680345572,0.06,0.03032397408207343,1.3645788336933045,offense_run_blockng (2).csv
+2023,Greg Dulcich,84068,g_dulcich,DEN,DEN,49.4,8,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Lucas Krull,83962,l_krull,DEN,DEN,67.3,27,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Nate Adkins,87625,n_adkins,DEN,DEN,51.2,26,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Anthony Firkser,51837,a_firkser,DET,DET,64.8,17,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Brock Wright,60994,b_wright,DET,DET,45.9,264,463,True,0.17,0.5701943844492441,-0.1,-0.05701943844492441,-2.5658747300215983,offense_run_blockng (2).csv
+2023,James Mitchell,77885,j_mitchell,DET,DET,46.0,89,463,True,0.18,0.19222462203023757,-0.1,-0.01922246220302376,-0.8650107991360692,offense_run_blockng (2).csv
+2023,Sam LaPorta,101690,s_laporta,DET,DET,53.9,463,463,True,0.42,1.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Ben Sims,77918,b_sims,GB,GB,58.2,134,463,True,0.665,0.2894168466522678,0.06,0.017365010799136067,0.781425485961123,offense_run_blockng (2).csv
+2023,Josiah Deguara,47034,j_deguara,GB,GB,55.4,117,463,True,0.53,0.2526997840172786,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Luke Musgrave,98499,l_musgrave,GB,GB,59.3,168,463,True,0.71,0.36285097192224625,0.12,0.04354211663066955,1.9593952483801298,offense_run_blockng (2).csv
+2023,Tucker Kraft,104034,t_kraft,GB,GB,48.7,326,463,True,0.24,0.7041036717062635,-0.1,-0.07041036717062636,-3.168466522678186,offense_run_blockng (2).csv
+2023,Brevin Jordan,77887,b_jordan,HOU,HST,58.2,135,463,True,0.665,0.2915766738660907,0.06,0.01749460043196544,0.7872570194384448,offense_run_blockng (2).csv
+2023,Dalton Keene,61068,d_keene,HOU,HST,58.0,5,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Dalton Schultz,47304,d_schultz,HOU,HST,59.7,266,463,True,0.74,0.5745140388768899,0.12,0.06894168466522678,3.102375809935205,offense_run_blockng (2).csv
+2023,Eric Saubert,11929,e_saubert,HOU,HST,63.6,77,463,True,0.885,0.16630669546436286,0.2,0.03326133909287257,1.4967602591792657,offense_run_blockng (2).csv
+2023,Teagan Quitoriano,84036,t_quitoriano,HOU,HST,56.5,103,463,True,0.59,0.2224622030237581,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Andrew Ogletree,138351,a_ogletree,IND,IND,63.1,177,463,True,0.86,0.38228941684665224,0.2,0.07645788336933046,3.440604751619871,offense_run_blockng (2).csv
+2023,Kylen Granson,40630,k_granson,IND,IND,48.2,174,463,True,0.23,0.3758099352051836,-0.1,-0.03758099352051836,-1.6911447084233262,offense_run_blockng (2).csv
+2023,Mo Alie-Cox,12078,m_aliecox,IND,IND,59.9,228,463,True,0.75,0.4924406047516199,0.12,0.05909287257019438,2.6591792656587474,offense_run_blockng (2).csv
+2023,Will Mallory,77888,w_mallory,IND,IND,67.5,26,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Brenton Strange,101694,b_strange,JAC,JAX,55.0,183,463,True,0.515,0.3952483801295896,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Evan Engram,11778,e_engram,JAC,JAX,54.9,238,463,True,0.49,0.5140388768898488,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Josh Pederson,39861,j_pederson,JAC,JAX,38.0,4,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Luke Farrell,42353,l_farrell,JAC,JAX,49.6,244,463,True,0.275,0.5269978401727862,-0.05,-0.02634989200863931,-1.185745140388769,offense_run_blockng (2).csv
+2023,Blake Bell,9550,b_bell,KC,KC,57.1,196,463,True,0.63,0.42332613390928725,0.06,0.025399568034557233,1.1429805615550754,offense_run_blockng (2).csv
+2023,Matt Bushman,52008,m_bushman,KC,KC,57.1,3,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Noah Gray,60878,n_gray,KC,KC,56.6,306,463,True,0.6,0.6609071274298056,0.06,0.03965442764578834,1.7844492440604753,offense_run_blockng (2).csv
+2023,Travis Kelce,7844,t_kelce,KC,KC,46.9,289,463,True,0.2,0.6241900647948164,-0.1,-0.06241900647948165,-2.8088552915766742,offense_run_blockng (2).csv
+2023,Brycen Hopkins,47338,b_hopkins,LA,LA,54.5,38,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Davis Allen,99697,d_allen,LA,LA,51.3,102,463,True,0.365,0.2203023758099352,-0.05,-0.011015118790496761,-0.49568034557235424,offense_run_blockng (2).csv
+2023,Hunter Long,60859,h_long,LA,LA,67.3,32,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Tyler Higbee,10744,t_higbee,LA,LA,54.2,348,463,True,0.44,0.7516198704103672,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Donald Parham Jr.,91014,d_parham,LAC,LAC,45.4,158,463,True,0.14,0.3412526997840173,-0.1,-0.03412526997840173,-1.5356371490280778,offense_run_blockng (2).csv
+2023,Gerald Everett,11799,g_everett,LAC,LAC,51.3,194,463,True,0.365,0.4190064794816415,-0.05,-0.020950323974082075,-0.9427645788336934,offense_run_blockng (2).csv
+2023,Hunter Kampmoyer,42701,h_kampmoyer,LAC,LAC,65.6,1,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Nick Vannett,10728,n_vannett,LAC,LAC,44.4,80,463,True,0.13,0.17278617710583152,-0.1,-0.017278617710583154,-0.7775377969762419,offense_run_blockng (2).csv
+2023,Stephen Anderson,11160,s_anderson,LAC,LAC,59.3,3,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Stone Smartt,60492,s_smartt,LAC,LAC,31.9,130,463,True,0.03,0.28077753779697623,-0.1,-0.028077753779697623,-1.263498920086393,offense_run_blockng (2).csv
+2023,Tre' McKitty,60896,t_mckitty,LAC,LAC,39.1,42,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Austin Hooper,10715,a_hooper,LV,LV,50.6,225,463,True,0.31,0.48596112311015116,-0.05,-0.02429805615550756,-1.0934125269978403,offense_run_blockng (2).csv
+2023,Cole Fotheringham,84070,c_fotheringham,LV,LV,47.9,13,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Jesper Horsted,91465,j_horsted,LV,LV,59.7,1,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Michael Mayer,122906,m_mayer,LV,LV,47.6,260,463,True,0.22,0.5615550755939525,-0.1,-0.056155507559395246,-2.526997840172786,offense_run_blockng (2).csv
+2023,Zach Gentry,36049,z_gentry,LV,LV,60.5,14,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Durham Smythe,47257,d_smythe,MIA,MIA,50.2,304,463,True,0.3,0.6565874730021598,-0.05,-0.03282937365010799,-1.4773218142548596,offense_run_blockng (2).csv
+2023,Julian Hill,88685,j_hill,MIA,MIA,41.6,202,463,True,0.09,0.43628509719222464,-0.1,-0.04362850971922247,-1.9632829373650111,offense_run_blockng (2).csv
+2023,Tanner Conner,22777,t_conner,MIA,MIA,69.1,19,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Tyler Kroft,9518,t_kroft,MIA,MIA,65.1,26,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Johnny Mundt,12206,j_mundt,MIN,MIN,63.8,94,463,True,0.9,0.20302375809935205,0.3,0.06090712742980561,2.7408207343412525,offense_run_blockng (2).csv
+2023,Josh Oliver,47083,j_oliver,MIN,MIN,73.9,243,463,True,0.96,0.5248380129589633,0.3,0.15745140388768897,7.085313174946004,offense_run_blockng (2).csv
+2023,Nick Muse,61079,n_muse,MIN,MIN,60.0,1,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,T.J. Hockenson,40912,t_hockenson,MIN,MIN,56.1,227,463,True,0.57,0.490280777537797,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Hunter Henry,10669,h_henry,NE,NE,55.8,249,463,True,0.555,0.5377969762419006,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Mike Gesicki,47153,m_gesicki,NE,NE,35.1,174,463,True,0.04,0.3758099352051836,-0.1,-0.03758099352051836,-1.6911447084233262,offense_run_blockng (2).csv
+2023,Matt Sokol,47123,m_sokol,NE,NE,47.3,12,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Pharaoh Brown,12247,p_brown,NE,NE,63.3,242,463,True,0.87,0.5226781857451404,0.2,0.10453563714902808,4.704103671706264,offense_run_blockng (2).csv
+2023,Foster Moreau,47043,f_moreau,NO,NO,51.0,342,463,True,0.33,0.7386609071274298,-0.05,-0.03693304535637149,-1.6619870410367172,offense_run_blockng (2).csv
+2023,Jimmy Graham,5619,j_graham,NO,NO,50.1,91,463,True,0.29,0.19654427645788336,-0.05,-0.009827213822894169,-0.4422246220302376,offense_run_blockng (2).csv
+2023,J.P. Holtz,11062,j_holtz,NO,NO,60.0,1,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Juwan Johnson,28305,j_johnson,NO,NO,40.4,209,463,True,0.07,0.4514038876889849,-0.1,-0.04514038876889849,-2.031317494600432,offense_run_blockng (2).csv
+2023,Taysom Hill,12112,t_hill,NO,NO,57.3,89,463,True,0.64,0.19222462203023757,0.06,0.011533477321814254,0.5190064794816415,offense_run_blockng (2).csv
+2023,Daniel Bellinger,84041,d_bellinger,NYG,NYG,56.9,308,463,True,0.615,0.6652267818574514,0.06,0.03991360691144708,1.7961123110151187,offense_run_blockng (2).csv
+2023,Darren Waller,9637,d_waller,NYG,NYG,40.9,172,463,True,0.08,0.3714902807775378,-0.1,-0.03714902807775378,-1.6717062634989202,offense_run_blockng (2).csv
+2023,Lawrence Cager,34914,l_cager,NYG,NYG,65.0,38,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Tyree Jackson,46481,t_jackson,NYG,NYG,51.8,12,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,C.J. Uzomah,9590,c_uzomah,NYJ,NYJ,74.5,106,463,True,0.97,0.22894168466522677,0.3,0.06868250539956802,3.090712742980561,offense_run_blockng (2).csv
+2023,Jeremy Ruckert,84029,j_ruckert,NYJ,NYJ,55.0,147,463,True,0.515,0.3174946004319654,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Kenny Yeboah,42196,k_yeboah,NYJ,NYJ,60.8,79,463,True,0.8,0.17062634989200864,0.2,0.03412526997840173,1.5356371490280778,offense_run_blockng (2).csv
+2023,Tyler Conklin,47124,t_conklin,NYJ,NYJ,54.0,233,463,True,0.43,0.5032397408207343,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Zack Kuntz,84084,z_kuntz,NYJ,NYJ,59.9,2,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Albert Okwuegbunam,41933,a_okwuegbunam,PHI,PHI,57.0,17,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Dallas Goedert,47272,d_goedert,PHI,PHI,73.4,343,463,True,0.94,0.7408207343412527,0.3,0.2222462203023758,10.001079913606912,offense_run_blockng (2).csv
+2023,Grant Calcaterra,60997,g_calcaterra,PHI,PHI,60.2,65,463,True,0.785,0.14038876889848811,0.12,0.016846652267818573,0.7580993520518358,offense_run_blockng (2).csv
+2023,Jack Stoll,42058,j_stoll,PHI,PHI,63.6,270,463,True,0.885,0.5831533477321814,0.2,0.11663066954643629,5.248380129589633,offense_run_blockng (2).csv
+2023,Noah Togiai,47282,n_togiai,PHI,PHI,70.7,4,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Connor Heyward,57301,c_heyward,PIT,PIT,56.2,179,463,True,0.58,0.38660907127429806,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Darnell Washington,124044,d_washington,PIT,PIT,53.2,336,463,True,0.4,0.7257019438444925,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Pat Freiermuth,84085,p_freiermuth,PIT,PIT,54.4,178,463,True,0.455,0.38444924406047515,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Rodney Williams,63718,r_williams,PIT,PIT,62.6,40,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Brady Russell,60876,b_russell,SEA,SEA,59.5,14,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Colby Parkinson,52266,c_parkinson,SEA,SEA,64.1,211,463,True,0.92,0.4557235421166307,0.3,0.1367170626349892,6.152267818574514,offense_run_blockng (2).csv
+2023,Noah Fant,42388,n_fant,SEA,SEA,59.6,192,463,True,0.725,0.4146868250539957,0.12,0.04976241900647948,2.2393088552915765,offense_run_blockng (2).csv
+2023,Will Dissly,30762,w_dissly,SEA,SEA,77.2,187,463,True,0.98,0.4038876889848812,0.3,0.12116630669546435,5.452483801295896,offense_run_blockng (2).csv
+2023,Brayden Willis,77917,b_willis,SF,SF,58.8,42,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Charlie Woerner,42257,c_woerner,SF,SF,77.3,223,463,True,0.99,0.4816414686825054,0.3,0.1444924406047516,6.502159827213823,offense_run_blockng (2).csv
+2023,George Kittle,11901,g_kittle,SF,SF,81.1,443,463,True,1.0,0.9568034557235421,0.3,0.2870410367170626,12.916846652267818,offense_run_blockng (2).csv
+2023,Ross Dwelley,20994,r_dwelley,SF,SF,49.2,54,463,True,0.25,0.11663066954643629,-0.05,-0.005831533477321815,-0.2624190064794817,offense_run_blockng (2).csv
+2023,Cade Otton,61071,c_otton,TB,TB,51.7,435,463,True,0.38,0.9395248380129589,-0.05,-0.04697624190064795,-2.1139308855291574,offense_run_blockng (2).csv
+2023,David Wells,34985,d_wells,TB,TB,59.0,27,463,False,,0.0,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Ko Kieft,41372,k_kieft,TB,TB,60.9,150,463,True,0.81,0.32397408207343414,0.2,0.06479481641468683,2.9157667386609076,offense_run_blockng (2).csv
+2023,Payne Durham,84037,p_durham,TB,TB,54.8,68,463,True,0.47,0.1468682505399568,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Chigoziem Okonkwo,84000,c_okonkwo,TEN,TEN,57.9,216,463,True,0.65,0.46652267818574517,0.06,0.027991360691144707,1.2596112311015117,offense_run_blockng (2).csv
+2023,Josh Whyle,54037,j_whyle,TEN,TEN,38.0,74,463,True,0.05,0.15982721382289417,-0.1,-0.015982721382289417,-0.7192224622030238,offense_run_blockng (2).csv
+2023,Kevin Rader,30887,k_rader,TEN,TEN,44.3,92,463,True,0.12,0.19870410367170627,-0.1,-0.01987041036717063,-0.8941684665226783,offense_run_blockng (2).csv
+2023,Trevon Wesco,42018,t_wesco,TEN,TEN,55.5,266,463,True,0.54,0.5745140388768899,0.0,0.0,0.0,offense_run_blockng (2).csv
+2023,Cole Turner,84330,c_turner,WAS,WAS,68.3,52,463,True,0.93,0.11231101511879049,0.3,0.033693304535637146,1.5161987041036715,offense_run_blockng (2).csv
+2023,John Bates,42275,j_bates,WAS,WAS,60.0,222,463,True,0.76,0.4794816414686825,0.12,0.057537796976241895,2.5892008639308854,offense_run_blockng (2).csv
+2023,Logan Thomas,8755,l_thomas,WAS,WAS,60.2,162,463,True,0.785,0.34989200863930886,0.12,0.04198704103671706,1.8894168466522678,offense_run_blockng (2).csv
+2024,Elijah Higgins,98027,e_higgins,ARI,ARZ,57.5,227,514,True,0.5679611650485437,0.44163424124513617,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Trey McBride,75916,t_mcbride,ARI,ARZ,63.4,349,514,True,0.8252427184466019,0.6789883268482491,0.2,0.13579766536964982,6.110894941634242,offense_run_blockng (1).csv
+2024,Tip Reiman,129423,t_reiman,ARI,ARZ,60.5,273,514,True,0.6504854368932039,0.5311284046692607,0.06,0.03186770428015564,1.4340466926070037,offense_run_blockng (1).csv
+2024,Travis Vokolek,61004,t_vokolek,ARI,ARZ,52.3,12,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Charlie Woerner,42257,c_woerner,ATL,ATL,65.6,322,514,True,0.8932038834951457,0.6264591439688716,0.2,0.12529182879377432,5.638132295719844,offense_run_blockng (1).csv
+2024,Kyle Pitts,83964,k_pitts,ATL,ATL,46.1,197,514,True,0.14563106796116504,0.3832684824902724,-0.1,-0.03832684824902724,-1.7247081712062258,offense_run_blockng (1).csv
+2024,Ross Dwelley,20994,r_dwelley,ATL,ATL,59.4,87,514,True,0.6213592233009708,0.16926070038910507,0.06,0.010155642023346304,0.45700389105058364,offense_run_blockng (1).csv
+2024,Charlie Kolar,60917,c_kolar,BAL,BLT,62.5,214,514,True,0.7669902912621359,0.4163424124513619,0.12,0.049961089494163426,2.248249027237354,offense_run_blockng (1).csv
+2024,Isaiah Likely,83955,i_likely,BAL,BLT,64.3,343,514,True,0.8640776699029126,0.6673151750972762,0.2,0.13346303501945525,6.005836575875486,offense_run_blockng (1).csv
+2024,Mark Andrews,47436,m_andrews,BAL,BLT,54.7,300,514,True,0.38349514563106796,0.5836575875486382,-0.05,-0.02918287937743191,-1.313229571984436,offense_run_blockng (1).csv
+2024,Dalton Kincaid,91791,d_kincaid,BUF,BUF,61.5,193,514,True,0.6893203883495146,0.3754863813229572,0.06,0.02252918287937743,1.0138132295719844,offense_run_blockng (1).csv
+2024,Dawson Knox,35883,d_knox,BUF,BUF,56.7,344,514,True,0.5145631067961165,0.669260700389105,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Quintin Morris,61182,q_morris,BUF,BUF,53.5,142,514,True,0.33980582524271846,0.27626459143968873,-0.05,-0.013813229571984437,-0.6215953307392996,offense_run_blockng (1).csv
+2024,Zach Davidson,143780,z_davidson,BUF,BUF,92.0,21,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Feleipe Franks,40217,f_franks,CAR,CAR,66.7,28,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Ian Thomas,42130,i_thomas,CAR,CAR,57.4,56,514,True,0.5533980582524272,0.10894941634241245,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Jordan Matthews,8677,j_matthews,CAR,CAR,60.2,12,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Ja'Tavion Sanders,144717,j_sanders,CAR,CAR,54.8,169,514,True,0.4077669902912621,0.32879377431906615,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Stephen Sullivan,40411,s_sullivan,CAR,CAR,60.2,2,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Tommy Tremble,84025,t_tremble,CAR,CAR,60.4,210,514,True,0.6407766990291263,0.4085603112840467,0.06,0.0245136186770428,1.1031128404669261,offense_run_blockng (1).csv
+2024,Cole Kmet,60995,c_kmet,CHI,CHI,62.4,344,514,True,0.7524271844660194,0.669260700389105,0.12,0.0803112840466926,3.6140077821011674,offense_run_blockng (1).csv
+2024,Gerald Everett,11799,g_everett,CHI,CHI,47.9,100,514,True,0.17475728155339806,0.19455252918287938,-0.1,-0.019455252918287938,-0.8754863813229572,offense_run_blockng (1).csv
+2024,Marcedes Lewis,2973,m_lewis,CHI,CHI,58.0,154,514,True,0.5922330097087378,0.29961089494163423,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Cam Grandy,134552,c_grandy,CIN,CIN,65.6,39,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Drew Sample,47259,d_sample,CIN,CIN,50.2,295,514,True,0.24271844660194175,0.5739299610894941,-0.1,-0.057392996108949414,-2.5826848249027234,offense_run_blockng (1).csv
+2024,Erick All,52595,e_all,CIN,CIN,49.9,109,514,True,0.23300970873786409,0.21206225680933852,-0.1,-0.021206225680933853,-0.9542801556420234,offense_run_blockng (1).csv
+2024,Mike Gesicki,47153,m_gesicki,CIN,CIN,61.4,73,514,True,0.6796116504854369,0.14202334630350194,0.06,0.008521400778210116,0.3834630350194552,offense_run_blockng (1).csv
+2024,Tanner Hudson,66924,t_hudson,CIN,CIN,54.6,23,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Tanner McLachlan,87645,t_mclachlan,CIN,CIN,60.0,4,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Brenden Bates,53746,b_bates,CLE,CLV,43.2,24,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Blake Whiteheart,77881,b_whiteheart,CLE,CLV,54.8,106,514,True,0.4077669902912621,0.20622568093385213,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,David Njoku,11784,d_njoku,CLE,CLV,52.7,174,514,True,0.2912621359223301,0.33852140077821014,-0.05,-0.016926070038910508,-0.7616731517509728,offense_run_blockng (1).csv
+2024,Geoff Swaim,9679,g_swaim,CLE,CLV,49.8,58,514,True,0.22330097087378642,0.11284046692607004,-0.1,-0.011284046692607005,-0.5077821011673153,offense_run_blockng (1).csv
+2024,Jordan Akins,47050,j_akins,CLE,CLV,41.0,103,514,True,0.07281553398058252,0.20038910505836577,-0.1,-0.020038910505836578,-0.901750972762646,offense_run_blockng (1).csv
+2024,Brevyn Spann-Ford,84006,b_spannford,DAL,DAL,55.4,156,514,True,0.4563106796116505,0.3035019455252918,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Jake Ferguson,61081,j_ferguson,DAL,DAL,57.2,180,514,True,0.5436893203883495,0.35019455252918286,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Luke Schoonmaker,84005,l_schoonmaker,DAL,DAL,39.8,194,514,True,0.04854368932038835,0.377431906614786,-0.1,-0.037743190661478604,-1.6984435797665371,offense_run_blockng (1).csv
+2024,Princeton Fant,62982,p_fant,DAL,DAL,58.9,10,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Adam Trautman,109795,a_trautman,DEN,DEN,56.6,291,514,True,0.5048543689320388,0.566147859922179,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Lucas Krull,83962,l_krull,DEN,DEN,54.7,74,514,True,0.38349514563106796,0.14396887159533073,-0.05,-0.0071984435797665365,-0.3239299610894941,offense_run_blockng (1).csv
+2024,Nate Adkins,87625,n_adkins,DEN,DEN,66.0,243,514,True,0.9320388349514563,0.4727626459143969,0.3,0.14182879377431906,6.3822957198443575,offense_run_blockng (1).csv
+2024,Brock Wright,60994,b_wright,DET,DET,52.0,348,514,True,0.2524271844660194,0.6770428015564203,-0.05,-0.033852140077821016,-1.5233463035019457,offense_run_blockng (1).csv
+2024,James Mitchell,77885,j_mitchell,DET,DET,64.0,17,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Parker Hesse,48369,p_hesse,DET,DET,48.6,39,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Sam LaPorta,101690,s_laporta,DET,DET,55.1,415,514,True,0.4368932038834951,0.8073929961089494,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Shane Zylstra,143786,s_zylstra,DET,DET,53.7,62,514,True,0.34951456310679613,0.12062256809338522,-0.05,-0.006031128404669261,-0.27140077821011677,offense_run_blockng (1).csv
+2024,Ben Sims,77918,b_sims,GB,GB,52.9,154,514,True,0.3106796116504854,0.29961089494163423,-0.05,-0.014980544747081713,-0.6741245136186771,offense_run_blockng (1).csv
+2024,John FitzPatrick,83974,j_fitzpatrick,GB,GB,60.7,53,514,True,0.6699029126213593,0.10311284046692606,0.06,0.006186770428015563,0.27840466926070034,offense_run_blockng (1).csv
+2024,Luke Musgrave,98499,l_musgrave,GB,GB,49.1,81,514,True,0.20388349514563106,0.1575875486381323,-0.1,-0.01575875486381323,-0.7091439688715953,offense_run_blockng (1).csv
+2024,Tucker Kraft,104034,t_kraft,GB,GB,54.3,441,514,True,0.36893203883495146,0.857976653696498,-0.05,-0.0428988326848249,-1.9304474708171206,offense_run_blockng (1).csv
+2024,Brevin Jordan,77887,b_jordan,HOU,HST,64.3,43,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Cade Stover,101486,c_stover,HOU,HST,63.0,230,514,True,0.7864077669902912,0.4474708171206226,0.12,0.05369649805447471,2.416342412451362,offense_run_blockng (1).csv
+2024,Dalton Schultz,47304,d_schultz,HOU,HST,55.6,293,514,True,0.47572815533980584,0.5700389105058365,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Irv Smith Jr.,42060,i_smith,HOU,HST,62.2,79,514,True,0.7233009708737864,0.15369649805447472,0.12,0.018443579766536964,0.8299610894941634,offense_run_blockng (1).csv
+2024,Teagan Quitoriano,84036,t_quitoriano,HOU,HST,54.0,70,514,True,0.3592233009708738,0.13618677042801555,-0.05,-0.006809338521400778,-0.30642023346303504,offense_run_blockng (1).csv
+2024,Andrew Ogletree,138351,a_ogletree,IND,IND,70.3,264,514,True,0.9757281553398058,0.5136186770428015,0.3,0.15408560311284045,6.93385214007782,offense_run_blockng (1).csv
+2024,Kylen Granson,40630,k_granson,IND,IND,65.9,160,514,True,0.9174757281553398,0.311284046692607,0.3,0.0933852140077821,4.202334630350195,offense_run_blockng (1).csv
+2024,Mo Alie-Cox,12078,m_aliecox,IND,IND,64.2,247,514,True,0.8543689320388349,0.4805447470817121,0.2,0.09610894941634242,4.324902723735409,offense_run_blockng (1).csv
+2024,Will Mallory,77888,w_mallory,IND,IND,40.5,12,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Brenton Strange,101694,b_strange,JAC,JAX,56.5,246,514,True,0.49514563106796117,0.4785992217898833,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Evan Engram,11778,e_engram,JAC,JAX,70.3,101,514,True,0.9757281553398058,0.19649805447470817,0.3,0.05894941634241245,2.65272373540856,offense_run_blockng (1).csv
+2024,Josiah Deguara,47034,j_deguara,JAC,JAX,62.2,50,514,True,0.7233009708737864,0.09727626459143969,0.12,0.011673151750972763,0.5252918287937743,offense_run_blockng (1).csv
+2024,Luke Farrell,42353,l_farrell,JAC,JAX,61.9,238,514,True,0.6990291262135923,0.46303501945525294,0.06,0.027782101167315176,1.2501945525291829,offense_run_blockng (1).csv
+2024,Anthony Firkser,51837,a_firkser,KC,KC,57.6,16,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Baylor Cupp,98500,b_cupp,KC,KC,60.0,2,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Jody Fortson,94384,j_fortson,KC,KC,86.7,23,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Jared Wiley,98508,j_wiley,KC,KC,62.4,66,514,True,0.7524271844660194,0.12840466926070038,0.12,0.015408560311284045,0.6933852140077821,offense_run_blockng (1).csv
+2024,Noah Gray,60878,n_gray,KC,KC,58.6,327,514,True,0.6116504854368932,0.6361867704280155,0.06,0.03817120622568093,1.717704280155642,offense_run_blockng (1).csv
+2024,Peyton Hendershot,60915,p_hendershot,KC,KC,54.9,41,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Travis Kelce,7844,t_kelce,KC,KC,59.6,337,514,True,0.6310679611650486,0.6556420233463035,0.06,0.03933852140077821,1.7702334630350194,offense_run_blockng (1).csv
+2024,Colby Parkinson,52266,c_parkinson,LA,LA,57.9,247,514,True,0.5825242718446602,0.4805447470817121,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Davis Allen,99697,d_allen,LA,LA,63.3,157,514,True,0.8058252427184466,0.30544747081712065,0.2,0.06108949416342413,2.7490272373540856,offense_run_blockng (1).csv
+2024,Hunter Long,60859,h_long,LA,LA,68.1,197,514,True,0.9611650485436893,0.3832684824902724,0.3,0.11498054474708172,5.174124513618677,offense_run_blockng (1).csv
+2024,Nikola Kalinic,156095,n_kalinic,LA,LA,60.0,1,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Tyler Higbee,10744,t_higbee,LA,LA,57.0,33,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Eric Tomlinson,9786,e_tomlinson,LAC,LAC,52.9,88,514,True,0.3106796116504854,0.17120622568093385,-0.05,-0.008560311284046693,-0.3852140077821012,offense_run_blockng (1).csv
+2024,Hayden Hurst,47294,h_hurst,LAC,LAC,29.8,71,514,True,0.009708737864077669,0.13813229571984437,-0.1,-0.013813229571984437,-0.6215953307392996,offense_run_blockng (1).csv
+2024,Stone Smartt,60492,s_smartt,LAC,LAC,39.0,56,514,True,0.03398058252427184,0.10894941634241245,-0.1,-0.010894941634241246,-0.49027237354085607,offense_run_blockng (1).csv
+2024,Tucker Fisk,52286,t_fisk,LAC,LAC,63.6,136,514,True,0.8349514563106796,0.26459143968871596,0.2,0.0529182879377432,2.381322957198444,offense_run_blockng (1).csv
+2024,Will Dissly,30762,w_dissly,LAC,LAC,62.0,215,514,True,0.7087378640776699,0.4182879377431907,0.12,0.05019455252918288,2.2587548638132295,offense_run_blockng (1).csv
+2024,Brock Bowers,146715,b_bowers,LV,LV,56.1,287,514,True,0.4854368932038835,0.5583657587548638,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Harrison Bryant,26394,h_bryant,LV,LV,52.5,111,514,True,0.2815533980582524,0.21595330739299612,-0.05,-0.010797665369649807,-0.4858949416342413,offense_run_blockng (1).csv
+2024,John Samuel Shenker,60854,j_samuelshenker,LV,LV,66.8,33,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Justin Shorter,84376,j_shorter,LV,LV,55.8,10,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Michael Mayer,122906,m_mayer,LV,LV,65.0,173,514,True,0.8737864077669902,0.33657587548638135,0.2,0.06731517509727628,3.0291828793774322,offense_run_blockng (1).csv
+2024,Durham Smythe,47257,d_smythe,MIA,MIA,52.3,202,514,True,0.2621359223300971,0.39299610894941633,-0.05,-0.019649805447470817,-0.8842412451361867,offense_run_blockng (1).csv
+2024,Julian Hill,88685,j_hill,MIA,MIA,41.0,283,514,True,0.07281553398058252,0.5505836575875487,-0.1,-0.05505836575875487,-2.477626459143969,offense_run_blockng (1).csv
+2024,Jonnu Smith,11855,j_smith,MIA,MIA,40.5,120,514,True,0.05825242718446602,0.23346303501945526,-0.1,-0.023346303501945526,-1.0505836575875487,offense_run_blockng (1).csv
+2024,Jack Stoll,42058,j_stoll,MIA,MIA,53.1,144,514,True,0.3300970873786408,0.2801556420233463,-0.05,-0.014007782101167316,-0.6303501945525292,offense_run_blockng (1).csv
+2024,Tanner Conner,22777,t_conner,MIA,MIA,60.1,7,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Johnny Mundt,12206,j_mundt,MIN,MIN,55.5,214,514,True,0.46601941747572817,0.4163424124513619,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Josh Oliver,47083,j_oliver,MIN,MIN,73.0,318,514,True,1.0,0.6186770428015564,0.3,0.18560311284046693,8.352140077821012,offense_run_blockng (1).csv
+2024,Nick Muse,61079,n_muse,MIN,MIN,58.8,9,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Robert Tonyan,12193,r_tonyan,MIN,MIN,56.4,9,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,T.J. Hockenson,40912,t_hockenson,MIN,MIN,47.6,101,514,True,0.1650485436893204,0.19649805447470817,-0.1,-0.019649805447470817,-0.8842412451361867,offense_run_blockng (1).csv
+2024,Austin Hooper,10715,a_hooper,NE,NE,65.9,239,514,True,0.9174757281553398,0.4649805447470817,0.3,0.13949416342412452,6.277237354085603,offense_run_blockng (1).csv
+2024,Hunter Henry,10669,h_henry,NE,NE,55.2,279,514,True,0.44660194174757284,0.5428015564202334,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Jaheim Bell,124225,j_bell,NE,NE,66.7,44,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Jack Westover,84079,j_westover,NE,NE,60.0,6,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Mitchell Wilcox,47234,m_wilcox,NE,NE,60.0,1,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Dallin Holker,83946,d_holker,NO,NO,66.8,34,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Foster Moreau,47043,f_moreau,NO,NO,58.4,355,514,True,0.6019417475728155,0.6906614785992218,0.06,0.041439688715953306,1.8647859922178989,offense_run_blockng (1).csv
+2024,Juwan Johnson,28305,j_johnson,NO,NO,52.4,228,514,True,0.27184466019417475,0.44357976653696496,-0.05,-0.02217898832684825,-0.9980544747081712,offense_run_blockng (1).csv
+2024,Taysom Hill,12112,t_hill,NO,NO,43.2,64,514,True,0.11650485436893204,0.1245136186770428,-0.1,-0.012451361867704281,-0.5603112840466926,offense_run_blockng (1).csv
+2024,Chris Manhertz,10211,c_manhertz,NYG,NYG,63.8,203,514,True,0.8446601941747572,0.3949416342412451,0.2,0.07898832684824902,3.554474708171206,offense_run_blockng (1).csv
+2024,Daniel Bellinger,84041,d_bellinger,NYG,NYG,62.9,151,514,True,0.7766990291262136,0.29377431906614787,0.12,0.035252918287937744,1.5863813229571986,offense_run_blockng (1).csv
+2024,Greg Dulcich,84068,g_dulcich,NYG,NYG,31.1,20,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Theo Johnson,129787,t_johnson,NYG,NYG,47.5,224,514,True,0.1553398058252427,0.4357976653696498,-0.1,-0.043579766536964985,-1.9610894941634243,offense_run_blockng (1).csv
+2024,Jeremy Ruckert,84029,j_ruckert,NYJ,NYJ,39.0,188,514,True,0.03398058252427184,0.3657587548638132,-0.1,-0.036575875486381325,-1.6459143968871597,offense_run_blockng (1).csv
+2024,Kenny Yeboah,42196,k_yeboah,NYJ,NYJ,48.4,57,514,True,0.18446601941747573,0.11089494163424124,-0.1,-0.011089494163424125,-0.4990272373540856,offense_run_blockng (1).csv
+2024,Tyler Conklin,47124,t_conklin,NYJ,NYJ,42.9,247,514,True,0.10679611650485436,0.4805447470817121,-0.1,-0.04805447470817121,-2.1624513618677046,offense_run_blockng (1).csv
+2024,Zack Kuntz,84084,z_kuntz,NYJ,NYJ,60.0,1,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,C.J. Uzomah,9590,c_uzomah,PHI,PHI,56.9,99,514,True,0.5242718446601942,0.1926070038910506,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Dallas Goedert,47272,d_goedert,PHI,PHI,57.1,320,514,True,0.5339805825242718,0.622568093385214,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,E.J. Jenkins,109834,e_jenkins,PHI,PHI,63.3,73,514,True,0.8058252427184466,0.14202334630350194,0.2,0.02840466926070039,1.2782101167315174,offense_run_blockng (1).csv
+2024,Grant Calcaterra,60997,g_calcaterra,PHI,PHI,48.6,514,514,True,0.1941747572815534,1.0,-0.1,-0.1,-4.5,offense_run_blockng (1).csv
+2024,Connor Heyward,57301,c_heyward,PIT,PIT,65.8,127,514,True,0.9029126213592233,0.24708171206225682,0.3,0.07412451361867704,3.335603112840467,offense_run_blockng (1).csv
+2024,Darnell Washington,124044,d_washington,PIT,PIT,67.2,345,514,True,0.9514563106796117,0.6712062256809338,0.3,0.20136186770428013,9.061284046692606,offense_run_blockng (1).csv
+2024,MyCole Pruitt,9576,m_pruitt,PIT,PIT,55.0,183,514,True,0.42718446601941745,0.3560311284046693,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Pat Freiermuth,84085,p_freiermuth,PIT,PIT,44.7,285,514,True,0.13106796116504854,0.5544747081712063,-0.1,-0.05544747081712063,-2.495136186770428,offense_run_blockng (1).csv
+2024,Rodney Williams,63718,r_williams,PIT,PIT,60.0,5,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,AJ Barner,129433,a_barner,SEA,SEA,57.5,242,514,True,0.5679611650485437,0.4708171206225681,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Brady Russell,60876,b_russell,SEA,SEA,67.3,23,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Noah Fant,42388,n_fant,SEA,SEA,42.3,128,514,True,0.0970873786407767,0.2490272373540856,-0.1,-0.024902723735408562,-1.1206225680933852,offense_run_blockng (1).csv
+2024,Pharaoh Brown,12247,p_brown,SEA,SEA,54.8,154,514,True,0.4077669902912621,0.29961089494163423,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Tyler Mabry,25705,t_mabry,SEA,SEA,58.9,4,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Brayden Willis,77917,b_willis,SF,SF,54.7,14,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Eric Saubert,11929,e_saubert,SF,SF,63.3,193,514,True,0.8058252427184466,0.3754863813229572,0.2,0.07509727626459145,3.379377431906615,offense_run_blockng (1).csv
+2024,George Kittle,11901,g_kittle,SF,SF,70.8,308,514,True,0.9902912621359223,0.5992217898832685,0.3,0.17976653696498054,8.089494163424124,offense_run_blockng (1).csv
+2024,Jake Tonges,60864,j_tonges,SF,SF,78.0,20,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Cade Otton,61071,c_otton,TB,TB,65.2,326,514,True,0.883495145631068,0.6342412451361867,0.2,0.12684824902723735,5.70817120622568,offense_run_blockng (1).csv
+2024,Devin Culp,84080,d_culp,TB,TB,59.5,12,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Ko Kieft,41372,k_kieft,TB,TB,60.6,90,514,True,0.6601941747572816,0.17509727626459143,0.06,0.010505836575875485,0.4727626459143969,offense_run_blockng (1).csv
+2024,Payne Durham,84037,p_durham,TB,TB,67.1,250,514,True,0.941747572815534,0.48638132295719844,0.3,0.14591439688715951,6.566147859922178,offense_run_blockng (1).csv
+2024,Chigoziem Okonkwo,84000,c_okonkwo,TEN,TEN,36.1,229,514,True,0.019417475728155338,0.4455252918287938,-0.1,-0.044552529182879386,-2.0048638132295724,offense_run_blockng (1).csv
+2024,David Martin-Robinson,77892,d_martinrobinson,TEN,TEN,46.3,29,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Josh Whyle,54037,j_whyle,TEN,TEN,49.5,139,514,True,0.21359223300970873,0.2704280155642023,-0.1,-0.027042801556420235,-1.2169260700389106,offense_run_blockng (1).csv
+2024,Nick Vannett,10728,n_vannett,TEN,TEN,44.7,250,514,True,0.13106796116504854,0.48638132295719844,-0.1,-0.048638132295719845,-2.188715953307393,offense_run_blockng (1).csv
+2024,Thomas Odukoya,77872,t_odukoya,TEN,TEN,60.0,1,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,Ben Sinnott,122616,b_sinnott,WAS,WAS,62.3,186,514,True,0.7378640776699029,0.36186770428015563,0.12,0.04342412451361868,1.9540856031128404,offense_run_blockng (1).csv
+2024,Colson Yankoff,83589,c_yankoff,WAS,WAS,60.0,4,514,False,,0.0,0.0,0.0,0.0,offense_run_blockng (1).csv
+2024,John Bates,42275,j_bates,WAS,WAS,52.9,338,514,True,0.3106796116504854,0.6575875486381323,-0.05,-0.032879377431906616,-1.4795719844357977,offense_run_blockng (1).csv
+2024,Zach Ertz,7816,z_ertz,WAS,WAS,41.3,261,514,True,0.08737864077669903,0.5077821011673151,-0.1,-0.05077821011673152,-2.285019455252918,offense_run_blockng (1).csv
+2025,Elijah Higgins,98027,e_higgins,ARI,ARZ,58.3,151,432,True,0.5277777777777778,0.34953703703703703,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Josiah Deguara,47034,j_deguara,ARI,ARZ,43.0,23,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Pharaoh Brown,12247,p_brown,ARI,ARZ,72.2,32,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Trey McBride,75916,t_mcbride,ARI,ARZ,54.1,284,432,True,0.3611111111111111,0.6574074074074074,-0.05,-0.032870370370370376,-1.479166666666667,offense_run_blockng.csv
+2025,Tip Reiman,129423,t_reiman,ARI,ARZ,56.8,50,432,True,0.4537037037037037,0.11574074074074074,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Travis Vokolek,61004,t_vokolek,ARI,ARZ,46.5,24,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Charlie Woerner,42257,c_woerner,ATL,ATL,59.2,338,432,True,0.5879629629629629,0.7824074074074074,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Feleipe Franks,40217,f_franks,ATL,ATL,60.9,13,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Kyle Pitts,83964,k_pitts,ATL,ATL,43.0,365,432,True,0.05555555555555555,0.8449074074074074,-0.1,-0.08449074074074076,-3.802083333333334,offense_run_blockng.csv
+2025,Teagan Quitoriano,84036,t_quitoriano,ATL,ATL,52.6,110,432,True,0.2962962962962963,0.25462962962962965,-0.05,-0.012731481481481483,-0.5729166666666667,offense_run_blockng.csv
+2025,Charlie Kolar,60917,c_kolar,BAL,BLT,71.5,275,432,True,0.9074074074074074,0.6365740740740741,0.3,0.1909722222222222,8.59375,offense_run_blockng.csv
+2025,Isaiah Likely,83955,i_likely,BAL,BLT,66.5,218,432,True,0.7962962962962963,0.5046296296296297,0.12,0.06055555555555556,2.725,offense_run_blockng.csv
+2025,Mark Andrews,47436,m_andrews,BAL,BLT,67.1,230,432,True,0.8240740740740741,0.5324074074074074,0.2,0.1064814814814815,4.791666666666667,offense_run_blockng.csv
+2025,Dalton Kincaid,91791,d_kincaid,BUF,BUF,70.6,96,432,True,0.8888888888888888,0.2222222222222222,0.2,0.044444444444444446,2.0,offense_run_blockng.csv
+2025,Dawson Knox,35883,d_knox,BUF,BUF,63.2,341,432,True,0.6666666666666666,0.7893518518518519,0.06,0.04736111111111111,2.13125,offense_run_blockng.csv
+2025,Jackson Hawes,109374,j_hawes,BUF,BUF,74.2,370,432,True,0.9722222222222222,0.8564814814814815,0.3,0.2569444444444444,11.562499999999998,offense_run_blockng.csv
+2025,Keleki Latu,146291,k_latu,BUF,BUF,80.8,41,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,James Mitchell,77885,j_mitchell,CAR,CAR,68.1,36,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Ja'Tavion Sanders,144717,j_sanders,CAR,CAR,58.8,133,432,True,0.5462962962962963,0.30787037037037035,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Mitchell Evans,147486,m_evans,CAR,CAR,67.1,245,432,True,0.8240740740740741,0.5671296296296297,0.2,0.11342592592592593,5.104166666666667,offense_run_blockng.csv
+2025,Tommy Tremble,84025,t_tremble,CAR,CAR,73.5,326,432,True,0.9537037037037037,0.7546296296296297,0.3,0.2263888888888889,10.1875,offense_run_blockng.csv
+2025,Cole Kmet,60995,c_kmet,CHI,CHI,62.2,376,432,True,0.6296296296296297,0.8703703703703703,0.06,0.05222222222222222,2.3499999999999996,offense_run_blockng.csv
+2025,Colston Loveland,158540,c_loveland,CHI,CHI,70.0,304,432,True,0.8796296296296297,0.7037037037037037,0.2,0.14074074074074075,6.333333333333334,offense_run_blockng.csv
+2025,Durham Smythe,47257,d_smythe,CHI,CHI,53.2,201,432,True,0.3101851851851852,0.4652777777777778,-0.05,-0.02326388888888889,-1.046875,offense_run_blockng.csv
+2025,Stephen Carlson,94365,s_carlson,CHI,CHI,55.1,6,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Cam Grandy,134552,c_grandy,CIN,CIN,61.0,21,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Drew Sample,47259,d_sample,CIN,CIN,57.3,283,432,True,0.4722222222222222,0.6550925925925926,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Mike Gesicki,47153,m_gesicki,CIN,CIN,51.0,53,432,True,0.25462962962962965,0.12268518518518519,-0.05,-0.0061342592592592594,-0.2760416666666667,offense_run_blockng.csv
+2025,Noah Fant,42388,n_fant,CIN,CIN,58.9,145,432,True,0.5555555555555556,0.33564814814814814,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Tanner Hudson,66924,t_hudson,CIN,CIN,58.1,32,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Brenden Bates,53746,b_bates,CLE,CLV,50.8,87,432,True,0.24074074074074073,0.2013888888888889,-0.1,-0.02013888888888889,-0.9062500000000001,offense_run_blockng.csv
+2025,Blake Whiteheart,77881,b_whiteheart,CLE,CLV,59.0,121,432,True,0.5694444444444444,0.2800925925925926,0.0,0.0,0.0,offense_run_blockng.csv
+2025,David Njoku,11784,d_njoku,CLE,CLV,43.1,181,432,True,0.06481481481481481,0.41898148148148145,-0.1,-0.04189814814814815,-1.8854166666666667,offense_run_blockng.csv
+2025,Harold Fannin Jr.,163104,h_fannin,CLE,CLV,49.8,287,432,True,0.17592592592592593,0.6643518518518519,-0.1,-0.0664351851851852,-2.989583333333334,offense_run_blockng.csv
+2025,Sal Cannella,60853,s_cannella,CLE,CLV,54.1,7,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Brevyn Spann-Ford,84006,b_spannford,DAL,DAL,68.2,193,432,True,0.8518518518518519,0.44675925925925924,0.2,0.08935185185185185,4.020833333333333,offense_run_blockng.csv
+2025,Jake Ferguson,61081,j_ferguson,DAL,DAL,57.6,205,432,True,0.49074074074074076,0.47453703703703703,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Luke Schoonmaker,84005,l_schoonmaker,DAL,DAL,54.2,205,432,True,0.37037037037037035,0.47453703703703703,-0.05,-0.023726851851851853,-1.0677083333333335,offense_run_blockng.csv
+2025,Adam Trautman,109795,a_trautman,DEN,DEN,51.5,364,432,True,0.26851851851851855,0.8425925925925926,-0.05,-0.04212962962962963,-1.8958333333333333,offense_run_blockng.csv
+2025,Evan Engram,11778,e_engram,DEN,DEN,48.1,78,432,True,0.14814814814814814,0.18055555555555555,-0.1,-0.018055555555555557,-0.8125000000000001,offense_run_blockng.csv
+2025,Lucas Krull,83962,l_krull,DEN,DEN,55.0,20,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Marcedes Lewis,2973,m_lewis,DEN,DEN,57.9,64,432,True,0.5185185185185185,0.14814814814814814,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Nate Adkins,87625,n_adkins,DEN,DEN,66.3,137,432,True,0.7870370370370371,0.31712962962962965,0.12,0.03805555555555556,1.7125000000000001,offense_run_blockng.csv
+2025,Anthony Firkser,51837,a_firkser,DET,DET,47.0,66,432,True,0.125,0.1527777777777778,-0.1,-0.015277777777777779,-0.6875,offense_run_blockng.csv
+2025,Brock Wright,60994,b_wright,DET,DET,55.5,221,432,True,0.39814814814814814,0.5115740740740741,-0.05,-0.025578703703703704,-1.1510416666666667,offense_run_blockng.csv
+2025,Giovanni Ricci,13756,g_ricci,DET,DET,54.9,43,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Hayden Rucci,101680,h_rucci,DET,DET,56.6,29,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Ross Dwelley,20994,r_dwelley,DET,DET,47.0,74,432,True,0.125,0.1712962962962963,-0.1,-0.01712962962962963,-0.7708333333333334,offense_run_blockng.csv
+2025,Sam LaPorta,101690,s_laporta,DET,DET,64.9,230,432,True,0.7361111111111112,0.5324074074074074,0.12,0.06388888888888888,2.875,offense_run_blockng.csv
+2025,Shane Zylstra,143786,s_zylstra,DET,DET,41.0,61,432,True,0.037037037037037035,0.1412037037037037,-0.1,-0.01412037037037037,-0.6354166666666666,offense_run_blockng.csv
+2025,Zach Horton,148361,z_horton,DET,DET,56.5,9,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Drake Dabney,122264,d_dabney,GB,GB,61.7,34,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,John FitzPatrick,83974,j_fitzpatrick,GB,GB,66.0,181,432,True,0.7777777777777778,0.41898148148148145,0.12,0.050277777777777775,2.2624999999999997,offense_run_blockng.csv
+2025,Josh Whyle,54037,j_whyle,GB,GB,53.2,92,432,True,0.3101851851851852,0.21296296296296297,-0.05,-0.01064814814814815,-0.47916666666666674,offense_run_blockng.csv
+2025,Luke Musgrave,98499,l_musgrave,GB,GB,45.8,208,432,True,0.09259259259259259,0.48148148148148145,-0.1,-0.04814814814814815,-2.1666666666666665,offense_run_blockng.csv
+2025,Tucker Kraft,104034,t_kraft,GB,GB,62.0,184,432,True,0.6203703703703703,0.42592592592592593,0.06,0.025555555555555554,1.15,offense_run_blockng.csv
+2025,Cade Stover,101486,c_stover,HOU,HST,49.8,207,432,True,0.17592592592592593,0.4791666666666667,-0.1,-0.04791666666666667,-2.15625,offense_run_blockng.csv
+2025,Dalton Schultz,47304,d_schultz,HOU,HST,63.6,267,432,True,0.6805555555555556,0.6180555555555556,0.06,0.037083333333333336,1.6687500000000002,offense_run_blockng.csv
+2025,Harrison Bryant,26394,h_bryant,HOU,HST,59.7,105,432,True,0.6018518518518519,0.24305555555555555,0.06,0.014583333333333332,0.6562499999999999,offense_run_blockng.csv
+2025,Andrew Ogletree,138351,a_ogletree,IND,IND,52.0,128,432,True,0.2824074074074074,0.2962962962962963,-0.05,-0.014814814814814815,-0.6666666666666667,offense_run_blockng.csv
+2025,Mo Alie-Cox,12078,m_aliecox,IND,IND,64.6,220,432,True,0.7222222222222222,0.5092592592592593,0.12,0.061111111111111116,2.75,offense_run_blockng.csv
+2025,Sean McKeon,42266,s_mckeon,IND,IND,60.6,3,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Tyler Warren,129798,t_warren,IND,IND,50.7,317,432,True,0.23148148148148148,0.7337962962962963,-0.1,-0.07337962962962963,-3.302083333333333,offense_run_blockng.csv
+2025,Will Mallory,77888,w_mallory,IND,IND,59.8,8,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Brenton Strange,101694,b_strange,JAC,JAX,74.1,245,432,True,0.9629629629629629,0.5671296296296297,0.3,0.1701388888888889,7.65625,offense_run_blockng.csv
+2025,Hunter Long,60859,h_long,JAC,JAX,64.9,100,432,True,0.7361111111111112,0.23148148148148148,0.12,0.027777777777777776,1.25,offense_run_blockng.csv
+2025,Johnny Mundt,12206,j_mundt,JAC,JAX,72.1,220,432,True,0.9166666666666666,0.5092592592592593,0.3,0.1527777777777778,6.875000000000001,offense_run_blockng.csv
+2025,Quintin Morris,61182,q_morris,JAC,JAX,55.0,122,432,True,0.37962962962962965,0.2824074074074074,-0.05,-0.01412037037037037,-0.6354166666666666,offense_run_blockng.csv
+2025,Jared Wiley,98508,j_wiley,KC,KC,63.0,13,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Noah Gray,60878,n_gray,KC,KC,65.3,223,432,True,0.7592592592592593,0.5162037037037037,0.12,0.06194444444444444,2.7874999999999996,offense_run_blockng.csv
+2025,Robert Tonyan,12193,r_tonyan,KC,KC,69.5,86,432,True,0.8611111111111112,0.19907407407407407,0.2,0.03981481481481482,1.7916666666666667,offense_run_blockng.csv
+2025,Travis Kelce,7844,t_kelce,KC,KC,53.8,259,432,True,0.35185185185185186,0.5995370370370371,-0.05,-0.029976851851851855,-1.3489583333333335,offense_run_blockng.csv
+2025,Colby Parkinson,52266,c_parkinson,LA,LA,66.6,366,432,True,0.8055555555555556,0.8472222222222222,0.2,0.16944444444444445,7.625,offense_run_blockng.csv
+2025,Davis Allen,99697,d_allen,LA,LA,64.1,376,432,True,0.7083333333333334,0.8703703703703703,0.12,0.10444444444444444,4.699999999999999,offense_run_blockng.csv
+2025,Nick Vannett,10728,n_vannett,LA,LA,66.5,41,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Terrance Ferguson,146563,t_ferguson,LA,LA,73.1,189,432,True,0.9398148148148148,0.4375,0.3,0.13125,5.90625,offense_run_blockng.csv
+2025,Tyler Higbee,10744,t_higbee,LA,LA,67.1,170,432,True,0.8240740740740741,0.39351851851851855,0.2,0.07870370370370372,3.5416666666666674,offense_run_blockng.csv
+2025,Oronde Gadsden II,144046,o_gadsden,LAC,LAC,32.5,189,432,True,0.018518518518518517,0.4375,-0.1,-0.043750000000000004,-1.9687500000000002,offense_run_blockng.csv
+2025,Tyler Conklin,47124,t_conklin,LAC,LAC,46.8,71,432,True,0.1111111111111111,0.16435185185185186,-0.1,-0.016435185185185188,-0.7395833333333335,offense_run_blockng.csv
+2025,Tucker Fisk,52286,t_fisk,LAC,LAC,56.2,160,432,True,0.4166666666666667,0.37037037037037035,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Will Dissly,30762,w_dissly,LAC,LAC,64.1,83,432,True,0.7083333333333334,0.19212962962962962,0.12,0.023055555555555555,1.0374999999999999,offense_run_blockng.csv
+2025,Albert Okwuegbunam,41933,a_okwuegbunam,LV,LV,56.0,6,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Brock Bowers,146715,b_bowers,LV,LV,50.6,167,432,True,0.2175925925925926,0.38657407407407407,-0.1,-0.03865740740740741,-1.7395833333333335,offense_run_blockng.csv
+2025,Carter Runyon,177002,c_runyon,LV,LV,49.5,28,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Ian Thomas,42130,i_thomas,LV,LV,56.7,160,432,True,0.4351851851851852,0.37037037037037035,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Michael Mayer,122906,m_mayer,LV,LV,52.0,186,432,True,0.2824074074074074,0.4305555555555556,-0.05,-0.02152777777777778,-0.9687500000000001,offense_run_blockng.csv
+2025,Darren Waller,9637,d_waller,MIA,MIA,36.8,61,432,True,0.027777777777777776,0.1412037037037037,-0.1,-0.01412037037037037,-0.6354166666666666,offense_run_blockng.csv
+2025,Greg Dulcich,84068,g_dulcich,MIA,MIA,57.4,89,432,True,0.48148148148148145,0.20601851851851852,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Julian Hill,88685,j_hill,MIA,MIA,49.8,233,432,True,0.17592592592592593,0.5393518518518519,-0.1,-0.05393518518518519,-2.4270833333333335,offense_run_blockng.csv
+2025,Ben Sims,77918,b_sims,MIN,MIN,40.5,42,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Benjamin Yurosek,131786,b_yurosek,MIN,MIN,62.6,77,432,True,0.6388888888888888,0.17824074074074073,0.06,0.010694444444444444,0.48124999999999996,offense_run_blockng.csv
+2025,Josh Oliver,47083,j_oliver,MIN,MIN,64.0,227,432,True,0.6944444444444444,0.5254629629629629,0.06,0.03152777777777777,1.4187499999999997,offense_run_blockng.csv
+2025,T.J. Hockenson,40912,t_hockenson,MIN,MIN,57.7,210,432,True,0.5,0.4861111111111111,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Austin Hooper,10715,a_hooper,NE,NE,56.8,336,432,True,0.4537037037037037,0.7777777777777778,0.0,0.0,0.0,offense_run_blockng.csv
+2025,CJ Dippre,144888,c_dippre,NE,NE,54.9,14,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Hunter Henry,10669,h_henry,NE,NE,53.4,398,432,True,0.32407407407407407,0.9212962962962963,-0.05,-0.046064814814814815,-2.0729166666666665,offense_run_blockng.csv
+2025,Foster Moreau,47043,f_moreau,NO,NO,50.0,152,432,True,0.2037037037037037,0.35185185185185186,-0.1,-0.03518518518518519,-1.5833333333333335,offense_run_blockng.csv
+2025,Juwan Johnson,28305,j_johnson,NO,NO,47.2,257,432,True,0.1388888888888889,0.5949074074074074,-0.1,-0.05949074074074075,-2.6770833333333335,offense_run_blockng.csv
+2025,Jack Stoll,42058,j_stoll,NO,NO,53.5,130,432,True,0.3333333333333333,0.30092592592592593,-0.05,-0.015046296296296297,-0.6770833333333334,offense_run_blockng.csv
+2025,Moliki Matavao,146561,m_matavao,NO,NO,49.9,51,432,True,0.19444444444444445,0.11805555555555555,-0.1,-0.011805555555555555,-0.53125,offense_run_blockng.csv
+2025,Taysom Hill,12112,t_hill,NO,NO,59.2,60,432,True,0.5879629629629629,0.1388888888888889,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Treyton Welch,98097,t_welch,NO,NO,57.1,7,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Zaire Mitchell-Paden,145197,z_mitchellpaden,NO,NO,41.6,80,432,True,0.046296296296296294,0.18518518518518517,-0.1,-0.018518518518518517,-0.8333333333333333,offense_run_blockng.csv
+2025,Chris Manhertz,10211,c_manhertz,NYG,NYG,69.9,150,432,True,0.8703703703703703,0.3472222222222222,0.2,0.06944444444444445,3.125,offense_run_blockng.csv
+2025,Daniel Bellinger,84041,d_bellinger,NYG,NYG,60.9,281,432,True,0.6111111111111112,0.6504629629629629,0.06,0.03902777777777777,1.7562499999999996,offense_run_blockng.csv
+2025,Tanner Conner,22777,t_conner,NYG,NYG,51.8,49,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Thomas Fidone II,144997,t_fidone,NYG,NYG,60.3,2,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Theo Johnson,129787,t_johnson,NYG,NYG,51.0,342,432,True,0.25462962962962965,0.7916666666666666,-0.05,-0.03958333333333333,-1.78125,offense_run_blockng.csv
+2025,Zach Davidson,143780,z_davidson,NYG,NYG,72.8,6,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Jeremy Ruckert,84029,j_ruckert,NYJ,NYJ,59.0,251,432,True,0.5694444444444444,0.5810185185185185,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Jelani Woods,60509,j_woods,NYJ,NYJ,48.7,36,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Mason Taylor,157122,m_taylor,NYJ,NYJ,63.1,233,432,True,0.6574074074074074,0.5393518518518519,0.06,0.03236111111111111,1.45625,offense_run_blockng.csv
+2025,Stone Smartt,60492,s_smartt,NYJ,NYJ,49.6,21,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Cameron Latu,82647,c_latu,PHI,PHI,79.4,69,432,True,1.0,0.1597222222222222,0.3,0.04791666666666666,2.15625,offense_run_blockng.csv
+2025,Dallas Goedert,47272,d_goedert,PHI,PHI,50.6,337,432,True,0.2175925925925926,0.7800925925925926,-0.1,-0.07800925925925926,-3.510416666666667,offense_run_blockng.csv
+2025,E.J. Jenkins,109834,e_jenkins,PHI,PHI,56.9,10,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Grant Calcaterra,60997,g_calcaterra,PHI,PHI,49.1,241,432,True,0.1574074074074074,0.5578703703703703,-0.1,-0.05578703703703704,-2.5104166666666665,offense_run_blockng.csv
+2025,Kylen Granson,40630,k_granson,PHI,PHI,46.2,143,432,True,0.10185185185185185,0.33101851851851855,-0.1,-0.033101851851851855,-1.4895833333333335,offense_run_blockng.csv
+2025,Connor Heyward,57301,c_heyward,PIT,PIT,55.3,51,432,True,0.3888888888888889,0.11805555555555555,-0.05,-0.005902777777777778,-0.265625,offense_run_blockng.csv
+2025,Darnell Washington,124044,d_washington,PIT,PIT,73.1,267,432,True,0.9398148148148148,0.6180555555555556,0.3,0.18541666666666667,8.34375,offense_run_blockng.csv
+2025,Jonnu Smith,11855,j_smith,PIT,PIT,45.2,197,432,True,0.08333333333333333,0.45601851851851855,-0.1,-0.04560185185185186,-2.0520833333333335,offense_run_blockng.csv
+2025,Pat Freiermuth,84085,p_freiermuth,PIT,PIT,53.7,166,432,True,0.3425925925925926,0.38425925925925924,-0.05,-0.019212962962962963,-0.8645833333333334,offense_run_blockng.csv
+2025,AJ Barner,129433,a_barner,SEA,SEA,67.6,432,432,True,0.8425925925925926,1.0,0.2,0.2,9.0,offense_run_blockng.csv
+2025,Elijah Arroyo,143933,e_arroyo,SEA,SEA,56.4,151,432,True,0.42592592592592593,0.34953703703703703,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Eric Saubert,11929,e_saubert,SEA,SEA,65.1,241,432,True,0.75,0.5578703703703703,0.12,0.06694444444444445,3.0125,offense_run_blockng.csv
+2025,Nick Kallerup,101679,n_kallerup,SEA,SEA,65.6,115,432,True,0.7685185185185185,0.2662037037037037,0.12,0.03194444444444444,1.4375,offense_run_blockng.csv
+2025,Brayden Willis,77917,b_willis,SF,SF,60.0,7,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,George Kittle,11901,g_kittle,SF,SF,72.2,227,432,True,0.9259259259259259,0.5254629629629629,0.3,0.15763888888888886,7.093749999999998,offense_run_blockng.csv
+2025,Jake Tonges,60864,j_tonges,SF,SF,74.3,158,432,True,0.9814814814814815,0.36574074074074076,0.3,0.10972222222222222,4.9375,offense_run_blockng.csv
+2025,Luke Farrell,42353,l_farrell,SF,SF,71.0,264,432,True,0.8981481481481481,0.6111111111111112,0.2,0.12222222222222223,5.5,offense_run_blockng.csv
+2025,Cade Otton,61071,c_otton,TB,TB,56.1,369,432,True,0.4074074074074074,0.8541666666666666,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Devin Culp,84080,d_culp,TB,TB,52.6,27,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Ko Kieft,41372,k_kieft,TB,TB,83.6,22,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Payne Durham,84037,p_durham,TB,TB,74.4,234,432,True,0.9907407407407407,0.5416666666666666,0.3,0.16249999999999998,7.312499999999999,offense_run_blockng.csv
+2025,Chigoziem Okonkwo,84000,c_okonkwo,TEN,TEN,27.9,179,432,True,0.009259259259259259,0.41435185185185186,-0.1,-0.041435185185185186,-1.8645833333333335,offense_run_blockng.csv
+2025,David Martin-Robinson,77892,d_martinrobinson,TEN,TEN,62.9,95,432,True,0.6481481481481481,0.2199074074074074,0.06,0.013194444444444444,0.59375,offense_run_blockng.csv
+2025,Gunnar Helm,144726,g_helm,TEN,TEN,58.5,234,432,True,0.5370370370370371,0.5416666666666666,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Ben Sinnott,122616,b_sinnott,WAS,WAS,63.6,213,432,True,0.6805555555555556,0.4930555555555556,0.06,0.029583333333333333,1.33125,offense_run_blockng.csv
+2025,Colson Yankoff,83589,c_yankoff,WAS,WAS,44.5,57,432,True,0.07407407407407407,0.13194444444444445,-0.1,-0.013194444444444446,-0.5937500000000001,offense_run_blockng.csv
+2025,John Bates,42275,j_bates,WAS,WAS,57.8,270,432,True,0.5092592592592593,0.625,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Lawrence Cager,34914,l_cager,WAS,WAS,60.0,1,432,False,,0.0,0.0,0.0,0.0,offense_run_blockng.csv
+2025,Zach Ertz,7816,z_ertz,WAS,WAS,56.8,143,432,True,0.4537037037037037,0.33101851851851855,0.0,0.0,0.0,offense_run_blockng.csv
