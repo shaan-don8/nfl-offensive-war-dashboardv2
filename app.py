@@ -1083,11 +1083,15 @@ with qb_tab:
             top_label_idx.union(bottom_label_idx), "player_name"
         ]
 
+        # Plotly marker sizes must be non-negative. WAR can be negative,
+        # so use a separate positive display-size field while preserving WAR in hover/table output.
+        scatter_df["scatter_size"] = scatter_df["war"].abs().clip(lower=0.08)
+
         fig = px.scatter(
             scatter_df,
             x="passing_epa",
             y="scramble_epa",
-            size="war",
+            size="scatter_size",
             text="scatter_label",
             hover_name="player_name",
             hover_data=["season", "team_display", "war", "epa_per_play", "success_rate", "sacks", "interceptions"],
