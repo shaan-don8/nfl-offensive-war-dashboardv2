@@ -467,6 +467,7 @@ def plot_bar(df, x, y, color=None, title="", x_title="WAR", height_per_row=28):
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(color="rgba(255,255,255,0.88)"),
         legend_title_text="",
+        showlegend=False,
     )
     fig.update_xaxes(gridcolor="rgba(255,255,255,0.08)")
     fig.update_yaxes(gridcolor="rgba(255,255,255,0.03)")
@@ -613,7 +614,7 @@ available_teams = sorted([x for x in offense["team"].dropna().unique()])
 
 with st.sidebar:
     st.markdown("### Dashboard Controls")
-    selected_seasons = st.multiselect("Season filter", available_seasons, default=[available_seasons[0]])
+    selected_seasons = st.multiselect("Season filter", available_seasons, default=available_seasons)
     selected_teams = st.multiselect("Team filter", available_teams, default=[])
     top_n = st.slider("Leaderboard size", min_value=5, max_value=50, value=15, step=5)
     st.divider()
@@ -1057,37 +1058,52 @@ with qb_tab:
     st.markdown("<div class='section-title'>QB WAR</div>", unsafe_allow_html=True)
     st.markdown("<div class='section-copy'>Quarterback value combines passing EPA with scramble contribution, translated to WAR over the selected seasons.</div>", unsafe_allow_html=True)
 
-    qd = apply_common_filters(qb_detail, selected_seasons, selected_teams, "team_display")
-    qd = qd.sort_values("war", ascending=False).head(top_n)
+    qd_all = apply_common_filters(qb_detail, selected_seasons, selected_teams, "team_display")
+    qd_all = qd_all.sort_values("war", ascending=False).copy()
+    qd = qd_all.head(top_n).copy()
 
     q1, q2, q3, q4 = st.columns(4)
     with q1:
-        st.metric("QB rows", f"{len(qd):,}")
+        st.metric("QB rows", f"{len(qd_all):,}")
     with q2:
-        st.metric("Total QB WAR", fmt_num(qd["war"].sum(), 2))
+        st.metric("Total QB WAR", fmt_num(qd_all["war"].sum(), 2))
     with q3:
-        st.metric("Best QB WAR", fmt_num(qd["war"].max(), 2))
+        st.metric("Best QB WAR", fmt_num(qd_all["war"].max(), 2))
     with q4:
-        st.metric("Avg EPA/play", fmt_num(qd["epa_per_play"].mean(), 3))
+        st.metric("Avg EPA/play", fmt_num(qd_all["epa_per_play"].mean(), 3))
 
     plot_bar(qd.sort_values("war"), "war", "player_team", color="season", title="QB WAR leaderboard", x_title="QB WAR")
 
-    if not qd.empty:
+    if not qd_all.empty:
+        scatter_df = qd_all.copy()
+        scatter_df["scatter_label"] = ""
+        top_label_idx = scatter_df.nlargest(5, "war").index
+        bottom_label_idx = scatter_df.nsmallest(3, "war").index
+        scatter_df.loc[top_label_idx.union(bottom_label_idx), "scatter_label"] = scatter_df.loc[
+            top_label_idx.union(bottom_label_idx), "player_name"
+        ]
+
         fig = px.scatter(
-            qd,
+            scatter_df,
             x="passing_epa",
             y="scramble_epa",
             size="war",
-            color="season",
+            text="scatter_label",
             hover_name="player_name",
-            hover_data=["team_display", "war", "epa_per_play", "success_rate", "sacks", "interceptions"],
+            hover_data=["season", "team_display", "war", "epa_per_play", "success_rate", "sacks", "interceptions"],
             title="Passing EPA vs scramble value",
         )
+        fig.update_traces(
+            textposition="top center",
+            textfont=dict(color="rgba(255,255,255,0.92)", size=11),
+            marker=dict(opacity=0.78, line=dict(width=0.6, color="rgba(255,255,255,0.55)")),
+        )
         fig.update_layout(
-            height=480,
+            height=520,
             paper_bgcolor="rgba(0,0,0,0)",
             plot_bgcolor="rgba(0,0,0,0)",
             font=dict(color="rgba(255,255,255,0.88)"),
+            showlegend=False,
         )
         fig.update_xaxes(gridcolor="rgba(255,255,255,0.08)")
         fig.update_yaxes(gridcolor="rgba(255,255,255,0.08)")
