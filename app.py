@@ -12,7 +12,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = Path(__file__).parent 
 
 OFFENSE_PATH = DATA_DIR / "offense_war_master_2022_2025_te_adjusted.csv"
 SKILL_MASTER_PATH = DATA_DIR / "skill_war_master_2022_2025_te_adjusted.csv"
