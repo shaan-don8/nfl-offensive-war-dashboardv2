@@ -285,6 +285,57 @@ CUSTOM_CSS = """
         margin: 0.8rem 0 1rem 0;
     }
 
+    .read-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.05rem;
+        margin-top: 0.85rem;
+        margin-bottom: 1.05rem;
+    }
+
+    @media (max-width: 1000px) {
+        .read-grid { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+    }
+
+    .read-card {
+        border: 1px solid rgba(255,255,255,0.13);
+        background:
+            linear-gradient(145deg, rgba(18,27,43,0.96), rgba(16,24,38,0.9)),
+            radial-gradient(circle at top right, rgba(111,168,255,0.16), transparent 35%);
+        border-radius: 22px;
+        padding: 1.15rem 1.25rem;
+        box-shadow: 0 18px 45px rgba(0,0,0,0.22);
+        min-height: 250px;
+        color: var(--text-soft) !important;
+    }
+
+    .read-card h3 {
+        color: #FFFFFF !important;
+        font-size: 1.35rem;
+        letter-spacing: 0.06em;
+        margin: 0 0 0.85rem 0;
+        font-weight: 850;
+    }
+
+    .read-card p {
+        color: rgba(245,249,255,0.86) !important;
+        font-size: 0.93rem;
+        line-height: 1.46;
+        margin: 0.58rem 0;
+    }
+
+    .read-card strong {
+        color: #FFFFFF !important;
+        font-weight: 850;
+    }
+
+    .threshold-caption {
+        color: rgba(245,249,255,0.76) !important;
+        font-size: 0.9rem;
+        line-height: 1.38;
+        margin: 0.1rem 0 0.75rem 0;
+    }
+
     .dataframe th {
         background: rgba(255,255,255,0.08) !important;
     }
@@ -583,6 +634,23 @@ def apply_common_filters(df, seasons=None, teams=None, team_col="team"):
 
 filtered_offense = apply_common_filters(offense, selected_seasons, selected_teams, "team")
 
+INTERPRETATION_THRESHOLDS = pd.DataFrame(
+    [
+        {"Group": "QB", "WAR Range": "4.0+", "Interpretation": "MVP-caliber QB season"},
+        {"Group": "QB", "WAR Range": "3.0–4.0", "Interpretation": "Elite QB season"},
+        {"Group": "QB", "WAR Range": "2.0–3.0", "Interpretation": "Strong top-tier starter"},
+        {"Group": "QB", "WAR Range": "1.0–2.0", "Interpretation": "Above-average starter"},
+        {"Group": "Skill", "WAR Range": "2.0+", "Interpretation": "Elite skill production"},
+        {"Group": "Skill", "WAR Range": "1.5–2.0", "Interpretation": "All-Pro caliber skill season"},
+        {"Group": "Skill", "WAR Range": "1.0–1.5", "Interpretation": "High-end starter / primary weapon"},
+        {"Group": "Skill", "WAR Range": "0.5–1.0", "Interpretation": "Strong contributor above role replacement"},
+        {"Group": "OL", "WAR Range": "1.2+", "Interpretation": "Elite offensive line season"},
+        {"Group": "OL", "WAR Range": "0.8–1.2", "Interpretation": "High-end starter"},
+        {"Group": "OL", "WAR Range": "0.4–0.8", "Interpretation": "Good starter"},
+        {"Group": "OL", "WAR Range": "0.0–0.4", "Interpretation": "Above replacement / solid contributor"},
+    ]
+)
+
 # ============================================================
 # Hero
 # ============================================================
@@ -790,6 +858,49 @@ with overview_tab:
         "<div class='section-copy'>The app is built to make the framework legible quickly: explain the model, show the All WAR Team payoff, then let users drill into QB, skill, and OL leaderboards.</div>",
         unsafe_allow_html=True,
     )
+
+    st.markdown("<div class='section-title'>How to read this dashboard</div>", unsafe_allow_html=True)
+    st.markdown(
+        """
+        <div class="read-grid">
+            <div class="read-card">
+                <h3>QB WAR</h3>
+                <p><strong>What it captures:</strong> direct quarterback value on passing/dropback plays and scrambles.</p>
+                <p><strong>Formula:</strong> passing/dropback EPA + scramble EPA, divided by 45 EPA per win.</p>
+                <p><strong>Best use:</strong> comparing quarterback production across seasons and understanding how much value came from passing versus rushing creation.</p>
+            </div>
+            <div class="read-card">
+                <h3>Skill WAR</h3>
+                <p><strong>What it captures:</strong> receiving and non-QB rushing production above role-specific replacement.</p>
+                <p><strong>Formula:</strong> raw EPA production adjusted against the 25th percentile replacement baseline within RB, Pass Catcher, and TE roles.</p>
+                <p><strong>Best use:</strong> comparing RBs to RBs, pass catchers to pass catchers, and identifying role-adjusted skill value.</p>
+            </div>
+            <div class="read-card">
+                <h3>OL WAR</h3>
+                <p><strong>What it captures:</strong> a blend of team offensive context, individual PFF blocking grades, negative events, and position-specific replacement value.</p>
+                <p><strong>Formula:</strong> allocated pass/rush EPA + grade value - negative events + position adjustment.</p>
+                <p><strong>Best use:</strong> evaluating offensive line value without treating OL production as purely team passing output.</p>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown("<div class='section-title'>Production thresholds</div>", unsafe_allow_html=True)
+    st.markdown(
+        "<div class='threshold-caption'>These ranges are intended as practical interpretation bands, not hard scouting grades. QB, skill, and OL WAR should primarily be read within their own value buckets.</div>",
+        unsafe_allow_html=True,
+    )
+    styled_dataframe(
+        INTERPRETATION_THRESHOLDS,
+        column_config={
+            "Group": st.column_config.TextColumn("Group"),
+            "WAR Range": st.column_config.TextColumn("WAR Range"),
+            "Interpretation": st.column_config.TextColumn("Interpretation"),
+        },
+    )
+
+    st.markdown("<div class='mini-divider'></div>", unsafe_allow_html=True)
 
     m1, m2, m3 = st.columns(3)
     with m1:
@@ -1134,4 +1245,3 @@ with st.expander("Downloads"):
     with d4:
         st.download_button("QB master", data["qb_master"].to_csv(index=False).encode("utf-8"), FILE_NAMES["qb_master"], "text/csv")
         st.download_button("TE adjustments", data["te_adj"].to_csv(index=False).encode("utf-8"), FILE_NAMES["te_adj"], "text/csv")
-
